@@ -1,0 +1,886 @@
+{
+  "@@locale": "en",
+
+  "appName": "NutriCart",
+
+  "dashboardGreeting": "Hello, {userName} 👋",
+  "@dashboardGreeting": {
+    "placeholders": {
+      "userName": {
+        "type": "String"
+      }
+    }
+  },
+  "dashboardHighlightTitle": "Great Progress Today!",
+  "dashboardHighlightSubtitle": "Meals adjusted to fit your budget",
+  "dashboardQuickActionsTitle": "Quick Actions",
+  "dashboardQuickActionMealPlanTitle": "Meal Plan",
+  "dashboardQuickActionMealPlanSubtitle": "View today's meals",
+  "dashboardQuickActionGroceryTitle": "Grocery",
+  "dashboardQuickActionGrocerySubtitle": "Shopping list",
+  "dashboardQuickActionBudgetTitle": "Budget Tracker",
+  "dashboardQuickActionBudgetSubtitle": "Monitor your spending",
+  "dashboardQuickActionPantryTitle": "Pantry Management",
+  "dashboardQuickActionPantrySubtitle": "Track your ingredients",
+  "dashboardQuickActionReengineeringTitle": "Meal Re-engineering",
+  "dashboardQuickActionReengineeringSubtitle": "View intelligent meal updates",
+  "dashboardQuickActionInsightsTitle": "Health Insights",
+  "dashboardQuickActionInsightsSubtitle": "Track your health progress",
+  "dashboardWhyTheseMealsTitle": "Why These Meals?",
+  "dashboardPantryAlertsTitle": "Pantry Alerts",
+  "dashboardOverviewTitle": "Today's Meals",
+  "timeAM": "AM",
+  "timePM": "PM",
+
+  "seasonalSectionTitle": "Seasonal Picks Near You 🌾",
+  "seasonalSectionSubtitle": "Based on Bangalore markets in February",
+  "seasonalButtonAddToGrocery": "Add to Grocery List",
+  "seasonalSnackAddedToGrocery": "Added to grocery list",
+
+  "groceryTitle": "Grocery List",
+  "grocerySearchHint": "Search ingredients...",
+  "groceryEmptyTitle": "No Items Found",
+  "groceryEmptyMessageDefault": "Your grocery list is empty. Add items from meal plans.",
+  "groceryEmptyMessageFiltered": "No ingredients match your search.",
+  "groceryEmptyPrimary": "Browse Meals",
+  "groceryEmptyClearSearch": "Clear Search",
+  "groceryFabAddItem": "Add Item",
+
+  "grocerySnackAddedToPantry": "Added to pantry",
+  "grocerySnackRemovedFromList": "Removed from list",
+  "grocerySnackOpeningWhatsApp": "Opening WhatsApp...",
+  "grocerySnackOpeningSms": "Opening SMS...",
+  "grocerySnackCopiedList": "List copied to clipboard",
+
+  "groceryShareTitle": "Share Grocery List",
+
+  "groceryShoppingProgressTitle": "Shopping Progress",
+  "groceryShoppingProgressLabel": "{completed} of {total} items",
+  "@groceryShoppingProgressLabel": {
+    "placeholders": {
+      "completed": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+
+  "deliverySectionTitle": "Delivery Integration",
+  "deliverySectionSubtitle": "Choose a delivery partner that matches your current cart.",
+  "deliveryBigBasketTitle": "BigBasket",
+  "deliveryBigBasketSubtitle": "Great for full-week grocery runs",
+  "deliveryBigBasketFee": "Min order: ₹500 • Delivery fee: ₹49",
+  "deliveryBigBasketEta": "ETA: 2–3 hours",
+  "deliveryBlinkitTitle": "Blinkit",
+  "deliveryBlinkitSubtitle": "Quick top-ups and emergency essentials",
+  "deliveryBlinkitFee": "Min order: ₹199 • Delivery fee: ₹0",
+  "deliveryBlinkitEta": "ETA: 15–30 minutes",
+  "deliveryDMartTitle": "DMart Ready",
+  "deliveryDMartSubtitle": "Scheduled store pickup and delivery",
+  "deliveryDMartFee": "Currently unavailable",
+  "deliveryDMartEta": "ETA: —",
+  "deliveryAvailableForCart": "Available for your cart",
+  "deliveryMinOrderNotMet": "Minimum order not met",
+  "deliveryUnavailable": "Unavailable",
+  "deliverySelectedLabel": "Selected delivery: {provider}",
+  "@deliverySelectedLabel": {
+    "placeholders": {
+      "provider": {
+        "type": "String"
+      }
+    }
+  },
+  "deliveryChipSelected": "Selected",
+  "deliveryChipSelect": "Select",
+
+  "profileSetupTitle": "Profile Setup",
+  "profileStepOfTotal": "Step {current} of {total}",
+  "@profileStepOfTotal": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "profileStepPercent": "{percent}%",
+  "@profileStepPercent": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "profileContinue": "Continue",
+  "profileCompleteSetup": "Complete Setup",
+
+  "languageSelectorTitle": "App Language",
+  "languageSelectorSubtitle": "Choose the language for your NutriCart experience",
+  "languageEnglish": "English",
+  "languageKannada": "ಕನ್ನಡ",
+  "languageHindi": "हिन्दी",
+  "dashboardMealCompletedCount": "{completed} of {total} meals",
+  "@dashboardMealCompletedCount": {
+    "placeholders": {
+      "completed": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "dashboardCalorieConsumed": "Consumed",
+  "dashboardCalorieRemaining": "Remaining",
+  "dashboardCalorieValue": "{value} kcal",
+  "@dashboardCalorieValue": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "dashboardUrgencyHigh": "High",
+  "dashboardUrgencyMedium": "Medium",
+  "dashboardUrgencyLow": "Low",
+  "dashboardWeeklyProgressTitle": "Weekly Progress",
+  "dashboardWeeklyProgressSubtitle": "Nutrition adherence tracking",
+  "dashboardWeeklyProgressSemantics": "Weekly nutrition adherence bar chart showing daily compliance percentages",
+  "dashboardLegendExcellent": "Excellent",
+  "dashboardLegendGood": "Good",
+  "dashboardLegendNeedsImprovement": "Needs Improvement",
+  "dashboardLoading": "Loading...",
+  "dashboardOffline": "Offline",
+  "groceryCategoryVegetables": "Vegetables",
+  "groceryCategoryGrains": "Grains",
+  "groceryCategorySpices": "Spices",
+  "groceryCategoryDairy": "Dairy",
+  "groceryBudgetSummaryTitle": "Budget Summary",
+  "groceryWeeklyEstimate": "Weekly Estimate",
+  "groceryMonthlyBudget": "Monthly Budget",
+  "grocerySpent": "Spent",
+  "groceryRemaining": "Remaining",
+  "groceryCurrency": "₹",
+  "groceryBudgetFriendlyTitle": "Budget-Friendly Alternatives",
+  "groceryBudgetExceedsMessage": "Your current list exceeds budget by {amount}. Consider these alternatives:",
+  "@groceryBudgetExceedsMessage": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "grocerySaveAmount": "Save {amount}",
+  "@grocerySaveAmount": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "groceryTotal": "Total: {amount}",
+  "@groceryTotal": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "groceryShareGeneratedBy": "Generated by {appName} on {date}",
+  "@groceryShareGeneratedBy": {
+    "placeholders": {
+      "appName": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "profilePersonalDetails": "Personal Details",
+  "profileHealthConditions": "Health Conditions",
+  "profileDietaryPreferences": "Dietary Preferences",
+  "profileAllergies": "Allergies",
+  "profileBudget": "Budget",
+  "profileBudgetTitle": "Monthly Food Budget",
+  "profileAge": "Age",
+  "profileWeight": "Weight",
+  "profileGender": "Gender",
+  "profileGenderMale": "Male",
+  "profileGenderFemale": "Female",
+  "profileHealthDiabetes": "Diabetes",
+  "profileHealthPCOS": "PCOS",
+  "profileHealthHypertension": "Hypertension",
+  "profileHbA1c": "HbA1c Level",
+  "profileDietVegetarian": "Vegetarian",
+  "profileDietVegan": "Vegan",
+  "profileMonthlyBudgetLabel": "Enter Monthly Budget",
+  "profileUnitKg": "{value} kg",
+  "@profileUnitKg": {
+    "placeholders": {
+      "value": {
+        "type": "double"
+      }
+    }
+  },
+  "profileUnitYears": "{value} years",
+  "@profileUnitYears": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "dashboardModalMarkComplete": "Mark Complete",
+  "dashboardModalSkipMeal": "Skip Meal",
+  "dashboardModalRequestAlternative": "Request Alternative",
+  "dashboardOverviewTitle": "Today's Overview",
+  "profileUnitDays": "{value} days",
+  "@profileUnitDays": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "groceryBudgetOverview": "Budget Overview",
+  "groceryUsedPercent": "{percent}% Used",
+  "@groceryUsedPercent": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "groceryAvgDay": "Avg/Day",
+  "groceryDaysLeftLabel": "Days Left",
+  "mockRecentMeal1Name": "Brown Rice with Dal Tadka",
+  "mockRecentMeal1Explanation": "High in protein and fiber, helps manage blood sugar levels. Dal provides essential amino acids for PCOS management.",
+  "mockRecentMeal1Timestamp": "2 hours ago",
+  "mockRecentMeal2Name": "Oats Upma",
+  "mockRecentMeal2Explanation": "Low glycemic index breakfast keeps you full longer and prevents sugar spikes. Rich in beta-glucan for heart health.",
+  "mockRecentMeal2Timestamp": "5 hours ago",
+  "mockSeasonalPick1Name": "Winter Citrus",
+  "mockSeasonalPick1Type": "Fruit",
+  "mockSeasonalPick1Tag": "Winter citrus",
+  "mockSeasonalPick1Descriptor": "Seasonal in Feb around Bangalore",
+  "mockSeasonalPick2Name": "Fresh Spinach",
+  "mockSeasonalPick2Type": "Vegetable",
+  "mockSeasonalPick2Tag": "Winter leafy green",
+  "mockSeasonalPick2Descriptor": "Tender bunches in Feb",
+  "seasonalFruit": "Fruit",
+  "seasonalVegetable": "Vegetable",
+  "seasonalTagPeakSeason": "Peak season",
+  "seasonalDescriptorPeakFeb": "Peak availability in late Feb",
+  "seasonalTagLocallyAbundant": "Locally abundant",
+  "seasonalDescriptorCityMarkets": "Steady supply in city markets",
+  "groceryWeeklyBudget": "Weekly Budget",
+  "groceryOverBudget": "Over Budget",
+  "groceryEstimated": "estimated",
+  "grocerySaveMore": "Save More",
+  "groceryPurchasedStatus": "{count}/{total} purchased",
+  "@groceryPurchasedStatus": {
+    "placeholders": {
+      "count": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "groceryEditQuantity": "Edit Quantity",
+  "groceryFindAlternatives": "Find Alternatives",
+  "groceryAddNotes": "Add Notes",
+  "groceryPantry": "Pantry",
+  "groceryRemove": "Remove",
+  "groceryAlternativesTitle": "Alternatives for {name}",
+  "@groceryAlternativesTitle": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+  "groceryNoAlternatives": "No alternatives available",
+  "grocerySwitchedTo": "Switched to {name}",
+  "@grocerySwitchedTo": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+  "groceryClose": "Close",
+  "groceryCategoryProduce": "Produce",
+  "groceryCategoryMeat": "Meat",
+  "groceryCategoryBakery": "Bakery",
+  "groceryCategoryFrozen": "Frozen",
+  "groceryCategoryBeverages": "Beverages",
+  "mockGroceryOnions": "Onions",
+  "mockGroceryTomatoes": "Tomatoes",
+  "mockGroceryBasmatiRice": "Basmati Rice",
+  "mockGroceryWholeWheatFlour": "Whole Wheat Flour",
+  "mockGroceryTurmericPowder": "Turmeric Powder",
+  "mockGroceryCuminSeeds": "Cumin Seeds",
+  "mockGroceryGaramMasala": "Garam Masala",
+  "mockGroceryMilk": "Milk",
+  "mockGroceryYogurt": "Yogurt",
+  "mockGroceryPaneer": "Paneer",
+  "profilePersonalSubtitle": "Help us personalize your meal plans with basic information",
+  "profileAgeLabel": "Age *",
+  "profileAgeHint": "Enter your age",
+  "profileAgeRequired": "Age is required",
+  "profileAgeInvalid": "Please enter a valid age (18-100)",
+  "profileGenderLabel": "Gender *",
+  "profileGenderOther": "Other",
+  "profileWeightLabel": "Weight (kg) *",
+  "profileWeightHint": "Enter your weight",
+  "profileWeightRequired": "Weight is required",
+  "profileWeightInvalid": "Please enter a valid weight (30-200 kg)",
+  "profileWhyNeedInfo": "Why do we need this information?",
+  "profileUsageTitle": "Personal Information Usage",
+  "profileUsageAge": "Age helps us calculate your daily caloric needs and nutritional requirements",
+  "profileUsageGender": "Gender influences metabolic rate and specific nutrient needs",
+  "profileUsageWeight": "Weight is essential for portion control and personalized meal planning",
+  "profileUsageSecurity": "All data is encrypted and used only for your meal recommendations",
+  "profileHealthSubtitle": "Select any health conditions you manage (optional)",
+  "profileHealthDiabetesDesc": "Type 1 or Type 2 Diabetes",
+  "profileHealthPCOSDesc": "Polycystic Ovary Syndrome",
+  "profileHealthHypertensionDesc": "High Blood Pressure",
+  "profileHealthAnemia": "Anemia",
+  "profileHealthAnemiaDesc": "Iron Deficiency",
+  "profileHealthThyroid": "Thyroid",
+  "profileHealthThyroidDesc": "Thyroid Disorders",
+  "profileHealthHeart": "Heart Disease",
+  "profileHealthHeartDesc": "Cardiovascular Conditions",
+  "profileHbA1cLabel": "HbA1c Level (Optional)",
+  "profileHbA1cHint": "Enter your HbA1c level (e.g., 6.5)",
+  "profileHbA1cInfo": "This helps us provide more accurate meal recommendations for diabetes management",
+  "profileSafetyTitle": "Medical Nutrition Safety",
+  "profileSafetyCondition": "Health conditions affect your nutritional requirements and food restrictions",
+  "profileSafetyCompliance": "We ensure meal plans comply with medical nutrition guidelines",
+  "profileSafetyPrevention": "Prevents suggesting foods that may worsen your condition",
+  "profileSafetyBalance": "Helps balance nutrients specific to your health needs",
+  "profileSafetyGuidelines": "All recommendations follow Indian dietary guidelines for lifestyle diseases",
+  "profileDietSubtitle": "Select your dietary preferences (at least one required)",
+  "profileDietVeg": "Vegetarian",
+  "profileDietVegDesc": "No meat, fish, or poultry",
+  "profileDietVeganDesc": "No animal products",
+  "profileDietJain": "Jain",
+  "profileDietJainDesc": "No root vegetables",
+  "profileDietEgg": "Eggetarian",
+  "profileDietEggDesc": "Vegetarian with eggs",
+  "profileDietNonVeg": "Non-Vegetarian",
+  "profileDietNonVegDesc": "Includes all food types",
+  "profileDietPescatarian": "Pescatarian",
+  "profileDietPescatarianDesc": "Vegetarian with fish",
+  "profileDietMultipleInfo": "You can select multiple preferences. For example, Vegetarian + Jain or Eggetarian + Pescatarian.",
+  "profileDietImportanceTitle": "Dietary Preference Importance",
+  "profileDietImportanceRespect": "Ensures all meal suggestions respect your dietary choices",
+  "profileDietImportanceFilter": "Filters out ingredients that don't match your preferences",
+  "profileDietImportanceCultural": "Provides culturally appropriate Indian meal options",
+  "profileDietImportanceBalance": "Helps maintain nutritional balance within your dietary framework",
+  "profileDietImportanceReligious": "Supports religious and ethical food choices",
+  "profileBudgetSubtitle": "Set your monthly food budget for smart meal planning",
+  "profileBudgetAmountLabel": "Enter Budget Amount *",
+  "profileBudgetAmountHint": "Enter your monthly food budget",
+  "profileBudgetAmountRequired": "Budget is required",
+  "profileBudgetAmountMin": "Minimum budget is ₹1,000",
+  "profileBudgetAmountMax": "Maximum budget is ₹1,00,000",
+  "profileBudgetQuickSelect": "Quick Select",
+  "profileBudgetBreakdownTitle": "Budget Breakdown",
+  "profileBudgetDaily": "Daily Budget",
+  "profileBudgetWeekly": "Weekly Budget",
+  "profileBudgetPerMeal": "Per Meal (approx.)",
+  "profileBudgetSavingsInfo": "We'll suggest budget-friendly ingredient substitutions and help you track spending throughout the month.",
+  "profileBudgetAwareTitle": "Budget-Aware Planning",
+  "profileBudgetAwareSuggest": "Suggests meals that fit within your monthly budget",
+  "profileBudgetAwareCost": "Provides cost-effective ingredient alternatives",
+  "profileBudgetAwareTrack": "Helps track grocery spending throughout the month",
+  "profileBudgetAwareOptimize": "Optimizes meal plans for maximum nutrition at minimum cost",
+  "profileBudgetAwarePrevent": "Prevents overspending on groceries",
+  "profileAllergyTitle": "Allergies & Intolerances",
+  "profileAllergySubtitle": "Select any food allergies or intolerances (optional)",
+  "profileAllergySearchHint": "Search or add custom allergy",
+  "profileAllergySelected": "Selected Allergies",
+  "profileAllergyCommon": "Common Allergies",
+  "profileAllergyWarning": "All meal plans will automatically exclude ingredients you're allergic to. Please consult your doctor for severe allergies.",
+  "profileAllergySafetyTitle": "Allergy Safety",
+  "profileAllergySafetyPrevents": "Prevents suggesting meals with allergens that could harm you",
+  "profileAllergySafetyFilters": "Automatically filters out unsafe ingredients from all recommendations",
+  "profileAllergySafetySubstitutions": "Provides safe ingredient substitutions in meal plans",
+  "profileAllergySafetyExclude": "Ensures grocery lists exclude allergenic items",
+  "profileAllergySafetyCritical": "Critical for your health and safety",
+  "allergyPeanuts": "Peanuts",
+  "allergyTreeNuts": "Tree Nuts",
+  "allergyMilk": "Milk",
+  "allergyEggs": "Eggs",
+  "allergyWheat": "Wheat",
+  "allergySoy": "Soy",
+  "allergyFish": "Fish",
+  "allergyShellfish": "Shellfish",
+  "allergySesame": "Sesame",
+  "allergyMustard": "Mustard",
+  "allergyGluten": "Gluten",
+  "allergyLactose": "Lactose",
+  "allergyCorn": "Corn",
+  "allergyGarlic": "Garlic",
+  "allergyOnion": "Onion",
+  "allergyTomato": "Tomato",
+  "allergyCitrus": "Citrus Fruits",
+  "allergyStrawberries": "Strawberries",
+  "allergyChocolate": "Chocolate",
+  "allergyCaffeine": "Caffeine",
+  "mockGroceryGinger": "Ginger",
+  "mockGroceryGreenChillies": "Green Chillies",
+  "mockGroceryCorianderLeaves": "Coriander Leaves",
+  "mockGroceryReasonFreq": "Frequently purchased",
+  "mockGroceryReasonOften": "Often bought with {item}",
+  "@mockGroceryReasonOften": {
+    "placeholders": {
+      "item": { "type": "String" }
+    }
+  },
+  "mockGroceryReasonPlan": "Complements your meal plan",
+  "groceryShoppingProgressTitle": "Shopping Progress",
+  "groceryShoppingProgressLabel": "{purchased}/{total} items",
+  "@groceryShoppingProgressLabel": {
+    "placeholders": {
+      "purchased": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "deliverySectionTitle": "Delivery Integration",
+  "deliverySectionSubtitle": "Quick delivery options based on your cart",
+  "deliveryBigBasketTitle": "BigBasket",
+  "deliveryBigBasketSubtitle": "Full range of groceries",
+  "deliveryBigBasketFee": "Fee: ₹30 (Free above ₹500)",
+  "deliveryBigBasketEta": "ETA: 4-6 hours",
+  "deliveryBlinkitTitle": "Blinkit",
+  "deliveryBlinkitSubtitle": "Instant delivery",
+  "deliveryBlinkitFee": "Fee: ₹25 (Free above ₹199)",
+  "deliveryBlinkitEta": "ETA: 15-20 mins",
+  "deliveryDMartTitle": "DMart Ready",
+  "deliveryDMartSubtitle": "Value shopping",
+  "deliveryDMartFee": "Pickup: Free | Delivery: ₹49",
+  "deliveryDMartEta": "ETA: Next Day",
+  "deliveryAvailableForCart": "Available for your cart size",
+  "deliveryMinOrderNotMet": "Minimum order amount not met",
+  "deliveryUnavailable": "Currently unavailable in your area",
+  "deliveryChipSelected": "Selected",
+  "deliveryChipSelect": "Select",
+  "deliverySelectedLabel": "Selected Delivery: {provider}",
+  "@deliverySelectedLabel": {
+    "placeholders": {
+      "provider": { "type": "String" }
+    }
+  },
+  "loadingGeneral": "Loading...",
+  "groceryExceedsBudgetInfo": "Your current list exceeds budget by {amount}. Consider these alternatives:",
+  "@groceryExceedsBudgetInfo": {
+    "placeholders": {
+      "amount": { "type": "String" }
+    }
+  },
+  "grocerySubstitutionPrompt": "Switch {item1} to {item2}?",
+  "@grocerySubstitutionPrompt": {
+    "placeholders": {
+      "item1": { "type": "String" },
+      "item2": { "type": "String" }
+    }
+  },
+  "groceryImpactMinimal": "Impact on taste is minimal",
+  "groceryCategoryPantry": "Pantry Staples",
+  "groceryItemBrownRice": "Brown Rice",
+  "groceryItemMoongDal": "Moong Dal",
+  "groceryItemSpinach": "Spinach",
+  "groceryItemCarrots": "Carrots",
+  "groceryBudgetFriendlyAlts": "Budget-Friendly Alternatives",
+  "profileGenderMale": "Male",
+  "profileGenderFemale": "Female",
+  "mealPlanTitle": "Daily Meal Plan",
+  "mealPlanNoPlan": "No meal plan available",
+  "mealPlanBreakfast": "Breakfast",
+  "mealPlanLunch": "Lunch",
+  "mealPlanDinner": "Dinner",
+  "mealPlanSnacks": "Snacks",
+  "mealPlanToday": "Today",
+  "mealPlanPrevDay": "Previous day",
+  "mealPlanNextDay": "Next day",
+  "mealPlanWhyMeal": "Why this meal?",
+  "mealPlanCookingSteps": "Cooking Steps",
+  "mealPlanListenInstructions": "Listen to instructions",
+  "mealPlanIngredients": "Ingredients",
+  "mealPlanAddCount": "Add ({count})",
+  "@mealPlanAddCount": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "mealPlanCanSubstitute": "Can substitute: {item}",
+  "@mealPlanCanSubstitute": {
+    "placeholders": {
+      "item": { "type": "String" }
+    }
+  },
+  "mealPlanLongPressSelect": "Long press any ingredient to select for grocery list",
+  "mealPlanPrepTime": "Prep Time",
+  "mealPlanServings": "Servings",
+  "mealPlanCalories": "Calories",
+  "mealPlanKcalValue": "{value} kcal",
+  "@mealPlanKcalValue": {
+    "placeholders": {
+      "value": { "type": "String" }
+    }
+  },
+  "mealPlanFeedbackTitle": "Meal Feedback",
+  "mealPlanEaten": "Eaten",
+  "mealPlanPartial": "Partial",
+  "mealPlanSkipped": "Skipped",
+  "mealPlanAdaptFeedback": "Plan will adapt based on your feedback",
+  "mealPlanKcal": "{value} kcal",
+  "@mealPlanKcal": {
+    "placeholders": {
+      "value": { "type": "String" }
+    }
+  },
+  "mealPlanRupee": "₹{value}",
+  "@mealPlanRupee": {
+    "placeholders": {
+      "value": { "type": "String" }
+    }
+  },
+  "mealPlanBudgetWithin": "Within budget - Great job!",
+  "mealPlanBudgetExceeded": "Budget exceeded by ₹{amount}",
+  "@mealPlanBudgetExceeded": {
+    "placeholders": {
+      "amount": { "type": "String" }
+    }
+  },
+  "mealPlanSummaryTitle": "Daily Summary",
+  "mealPlanTotalCalories": "Total Calories",
+  "mealPlanTotalCost": "Total Cost",
+  "mealPlanAISelectedHeader": "Our AI selected these meals based on:",
+  "mealPlanWhyToday": "Why today's meals",
+  "mealPlanReason1": "High-protein breakfast supports your PCOS management and keeps you full longer",
+  "mealPlanReason2": "Lunch includes low-GI foods suitable for diabetes control with balanced nutrients",
+  "mealPlanReason3": "Dinner is light yet nutritious, promoting better sleep and digestion",
+  "mealPlanReason4": "All meals stay within your daily budget while meeting nutritional goals",
+  "mealPlanOatsUpma": "Oats Upma with Vegetables",
+  "mealPlanMoongDalCheela": "Moong Dal Cheela with Mint Chutney",
+  "mealPlanRagiDosa": "Ragi Dosa with Sambar",
+  "mealPlanBrownRiceDal": "Brown Rice with Dal Tadka and Salad",
+  "mealPlanQuinoaPulao": "Quinoa Pulao with Raita",
+  "mealPlanGrilledChicken": "Grilled Chicken with Multigrain Roti",
+  "mealPlanPalakPaneer": "Palak Paneer with Roti",
+  "mealPlanVegKhichdi": "Vegetable Khichdi with Curd",
+  "mealPlanGrilledFish": "Grilled Fish with Steamed Vegetables",
+  "mealPlanMixedNuts": "Mixed Nuts and Seeds",
+  "mealPlanFruitSalad": "Fruit Salad with Yogurt",
+  "mealPlanRoastedChickpeas": "Roasted Chickpeas",
+  "mealPlanDiabetesSafe": "Diabetes-safe",
+  "mealPlanPCOSFriendly": "PCOS-friendly",
+  "mealPlanHeartHealthy": "Heart-healthy",
+  "mealPlanIronRich": "Iron-rich",
+  "mealPlanHighProtein": "High-protein",
+  "mealPlanVitaminRich": "Vitamin-rich",
+  "mealPlanHighFiber": "High-fiber",
+  "mealPlanOatsUpmaSummary": "Low glycemic index breakfast that keeps you full and prevents sugar spikes.",
+  "mealPlanOatsUpmaReason1": "High fiber from oats and vegetables",
+  "mealPlanOatsUpmaReason2": "Slow glucose absorption",
+  "mealPlanOatsUpmaReason3": "Rich in essential minerals",
+  "mealPlanBrownRiceSummary": "Balanced meal providing complex carbs and plant-based protein.",
+  "mealPlanBrownRiceReason1": "Protein-rich dal for satiety",
+  "mealPlanBrownRiceReason2": "Fiber from brown rice and salad",
+  "mealPlanBrownRiceReason3": "Complete amino acid profile",
+  "mealPlanRoastedMakhanaSummary": "Light, anti-inflammatory snack rich in antioxidants.",
+  "mealPlanRoastedMakhanaReason1": "Antioxidants from green tea",
+  "mealPlanRoastedMakhanaReason2": "Low calorie density",
+  "mealPlanRoastedMakhanaReason3": "Manganese and protein from makhana",
+  "mealPlanPalakPaneerSummary": "Protein and iron-rich dinner that supports muscle repair and hormonal health.",
+  "mealPlanPalakPaneerReason1": "Iron from spinach",
+  "mealPlanPalakPaneerReason2": "Protein from paneer",
+  "mealPlanPalakPaneerReason3": "Probiotics from curd",
+  "mockIngredientOats": "Oats",
+  "mockIngredientMustardSeeds": "Mustard seeds",
+  "mockIngredientCurryLeaves": "Curry leaves",
+  "mockIngredientGreenChili": "Green chili",
+  "mockIngredientPhoolMakhana": "Phool Makhana (Fox nuts)",
+  "mockIngredientGreenTeaBag": "Green tea bag",
+  "mockIngredientBlackSalt": "Black salt & Pepper",
+  "mockIngredientGhee": "Ghee/Olive oil",
+  "mockIngredientCucumber": "Cucumber",
+  "mockIngredientPalakPuree": "Palak (Spinach) puree",
+  "mockIngredientPaneerCubes": "Paneer cubes",
+  "mockInstructionDryRoast": "Dry roast oats for 2-3 minutes until lightly golden.",
+  "mockInstructionTadka": "Heat oil, add mustard seeds, curry leaves, and green chilies.",
+  "mockInstructionSauteVeg": "Add onions and vegetables, sauté until tender.",
+  "mockInstructionBoilWater": "Add water and salt, bring to boil. Stir in roasted oats.",
+  "mockInstructionCookOats": "Cook until water is absorbed and oats are soft.",
+  "mockInstructionCookBrownRice": "Cook brown rice as per instructions.",
+  "mockInstructionPressureCookDal": "Pressure cook dal with turmeric and salt.",
+  "mockInstructionPerformTadka": "Perform tadka with cumin and garlic in a little ghee/oil.",
+  "mockInstructionPrepareSalad": "Prepare fresh salad with chopped cucumber and tomatoes.",
+  "mockInstructionRoastMakhana": "Heat ghee in a pan and roast makhana until crunchy.",
+  "mockInstructionSeasonMakhana": "Season with black salt and pepper while hot.",
+  "mockInstructionBrewTea": "Brew green tea in hot water for 2-3 minutes.",
+  "mockInstructionPreparePalakPaneer": "Prepare palak paneer gravy with spices and paneer.",
+  "mockInstructionMakeRotis": "Make fresh Rotis on a flat griddle (tawa).",
+  "mockInstructionMixRaita": "Mix grated cucumber in whisked curd for raita.",
+  "mockBenefitInsulin": "Slow energy release prevents insulin spikes.",
+  "mockBenefitSatiety": "High fiber content promotes satiety.",
+  "mockBenefitDigestion": "High fiber aids in smooth digestion.",
+  "mockBenefitHormonal": "Nutrients support PCOS management.",
+  "mockBenefitOxidative": "Green tea helps reduce oxidative stress.",
+  "mockBenefitMindful": "Crunchy texture satisfies cravings with low calories.",
+  "mockBenefitIron": "Spinach is a rich source of plant-based iron.",
+  "mockBenefitGutHealth": "Raita provides probiotics for better digestion.",
+  "mockConditionDigestion": "Digestion",
+  "mockConditionHormonal": "Hormonal Balance",
+  "mockConditionInflammation": "Inflammation",
+  "mockConditionMindful": "Mindful Snacking",
+  "mockConditionIron": "Iron Deficiency",
+  "mockConditionGutHealth": "Gut Health",
+  "mealPlanOatsUpmaExpl": "High fiber content helps regulate blood sugar levels",
+  "mealPlanMoongDalExpl": "Protein-rich moong dal supports hormonal balance",
+  "mealPlanRagiDosaExpl": "Ragi provides calcium and iron for overall wellness",
+  "mealPlanBrownRiceExpl": "Brown rice has low glycemic index, perfect for blood sugar control",
+  "mealPlanQuinoaExpl": "Quinoa is a complete protein source supporting metabolic health",
+  "mealPlanGrilledChickenExpl": "Lean protein supports muscle health and keeps you satisfied",
+  "mealPlanPalakPaneerExpl": "Spinach provides iron and calcium for bone health",
+  "mealPlanVegKhichdiExpl": "Easy to digest, balanced meal perfect for dinner",
+  "mealPlanGrilledFishExpl": "Omega-3 fatty acids support cardiovascular health",
+  "mealPlanMixedNutsExpl": "Healthy fats and protein for sustained energy",
+  "mealPlanFruitSaladExpl": "Fresh fruits provide antioxidants and natural sweetness",
+  "mealPlanRoastedChickpeasExpl": "Fiber-rich snack that keeps you full between meals",
+  "insightsTitle": "Health Insights",
+  "insightsRefreshTooltip": "Refresh insights",
+  "insightsYourHealthScore": "Your Health Score",
+  "insightsWeeklyChange": "{value} points this week",
+  "@insightsWeeklyChange": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "insightsHealthConditions": "Health Conditions",
+  "insightsNutrientBalance": "Nutrient Balance",
+  "insightsWeeklyTrends": "Weekly Trends",
+  "insightsPersonalizedInsights": "Personalized Insights",
+  "insightsRecommendations": "Recommendations",
+  "insightsDietAdherence": "Diet Adherence",
+  "insightsNutrientTracking": "Daily Nutrient Tracking",
+  "insightsStatusWithinRange": "Within Range",
+  "insightsStatusBorderline": "Borderline",
+  "insightsStatusNeedsImprovement": "Needs Improvement",
+  "insightsStatusStable": "Stable",
+  "insightsStatusImproving": "Improving",
+  "insightsStatusNeedsAttention": "Needs Attention",
+  "insightsTrendImproving": "Improving",
+  "insightsTrendDeclining": "Declining",
+  "insights7DayTrends": "7-Day Trends",
+  "insightsTabAdherence": "Adherence",
+  "insightsTabCalories": "Calories",
+  "insightsTabBudget": "Budget",
+  "insightsNoData": "No data available",
+  "insightsDefaultTitle": "Insight",
+  "insightsActionable": "Actionable",
+  "insightsDefaultRecommendation": "Recommendation",
+  "mockInsightConsistentTimingTitle": "Consistent Meal Timing",
+  "mockInsightConsistentTimingDesc": "You've maintained regular meal times for 6 days. This helps stabilize blood sugar levels.",
+  "mockInsightFiberLowTitle": "Fiber Intake Below Target",
+  "mockInsightFiberLowDesc": "Your fiber intake is 73% of target. Consider adding more vegetables and whole grains.",
+  "mockInsightBudgetOptTitle": "Budget Optimization",
+  "mockInsightBudgetOptDesc": "You're staying within budget while meeting nutritional goals. Great balance!",
+  "mockInsightSugarHighTitle": "Sugar Intake High",
+  "mockInsightSugarHighDesc": "Daily sugar intake is 29% above target. Try reducing sweetened beverages and desserts.",
+  "mockRecFiberIncreaseTitle": "Increase Fiber Intake",
+  "mockRecFiberIncreaseDesc": "Add 1 cup of mixed vegetables to lunch and dinner. Try switching white rice to brown rice.",
+  "mockRecSugarReduceTitle": "Reduce Added Sugar",
+  "mockRecSugarReduceDesc": "Replace sweetened beverages with herbal tea or infused water. Choose fresh fruits over fruit juices.",
+  "mockRecProteinMaintainTitle": "Maintain Current Protein Levels",
+  "mockRecProteinMaintainDesc": "Your protein intake is excellent. Continue including dal, paneer, and eggs in your meals.",
+  "mockRecHydrateTitle": "Stay Hydrated",
+  "mockRecHydrateDesc": "Aim for 8-10 glasses of water daily to support metabolism and nutrient absorption.",
+  "adaptivePlanActive": "Adaptive Plan Active",
+  "adaptivePersonalized": "Personalized",
+  "adaptiveAdjustedDesc": "Your plan has been automatically adjusted based on your eating patterns:",
+  "adaptivePortionsOptimized": "Portions optimized for your consumption habits",
+  "adaptiveMealsReplaced": "Meals replaced based on your preferences",
+  "adaptiveNutrientsRebalanced": "Nutrients rebalanced for optimal health",
+  "mockConditionDiabetes": "Type 2 Diabetes",
+  "mockConditionPCOS": "PCOS",
+  "mockConditionHypertension": "Hypertension",
+  "mealPlanCalories": "Calories",
+  "mealPlanProtein": "Protein",
+  "mealPlanFiber": "Fiber",
+  "mealPlanSugar": "Sugar",
+  "mealPlanSodium": "Sodium",
+  "pantryTitle": "Pantry Management",
+  "pantryRefreshTooltip": "Refresh pantry",
+  "pantrySearchHint": "Search ingredients...",
+  "pantryTabInventory": "Inventory",
+  "pantryTabSuggestions": "Meal Suggestions",
+  "pantryFabAddItem": "Add Item",
+  "pantryEmptyNoItems": "No Items in Pantry",
+  "pantryEmptyNoResults": "No Results Found",
+  "pantryEmptyMessageNoItems": "Start adding ingredients to track your pantry inventory",
+  "pantryEmptyMessageNoResults": "Try searching with different keywords",
+  "pantrySummaryTotal": "Total Items",
+  "pantrySummaryFresh": "Fresh",
+  "pantrySummaryExpiring": "Expiring",
+  "pantrySummaryExpired": "Expired",
+  "pantrySuggestionsTitle": "Smart Meal Suggestions",
+  "pantrySuggestionsSubtitle": "Based on your available pantry stock",
+  "pantryEmptyNoSuggestions": "No Meal Suggestions",
+  "pantryEmptyMessageNoSuggestions": "Add more ingredients to get personalized meal suggestions",
+  "pantrySnackAddedToList": "{itemName} added to grocery list",
+  "@pantrySnackAddedToList": {
+    "placeholders": {
+      "itemName": { "type": "String" }
+    }
+  },
+  "pantrySnackMarkedUsed": "{itemName} marked as used",
+  "@pantrySnackMarkedUsed": {
+    "placeholders": {
+      "itemName": { "type": "String" }
+    }
+  },
+  "pantrySnackAddedToPantry": "{itemName} added to pantry",
+  "@pantrySnackAddedToPantry": {
+    "placeholders": {
+      "itemName": { "type": "String" }
+    }
+  },
+  "pantryDialogAddTitle": "Add Pantry Item",
+  "pantryDialogItemNameLabel": "Item Name *",
+  "pantryDialogItemNameHint": "e.g., Tomatoes",
+  "pantryDialogCategoryLabel": "Category *",
+  "pantryDialogQuantityLabel": "Quantity *",
+  "pantryDialogQuantityHint": "0.0",
+  "pantryDialogUnitLabel": "Unit *",
+  "pantryDialogExpiryDateLabel": "Expiry Date *",
+  "pantryDialogErrorFields": "Please fill all required fields",
+  "pantryDialogCancel": "Cancel",
+  "pantryDialogConfirmAdd": "Add Item",
+  "pantryCategoryVegetables": "Vegetables",
+  "pantryCategoryGrains": "Grains",
+  "pantryCategorySpices": "Spices",
+  "pantryCategoryDairy": "Dairy",
+  "pantryCategoryProteins": "Proteins",
+  "pantryCategoryOther": "Other",
+  "unitKg": "kg",
+  "unitG": "g",
+  "unitL": "L",
+  "unitMl": "ml",
+  "unitPcs": "pcs",
+  "pantryStatusFresh": "Fresh",
+  "pantryStatusExpiringSoon": "Expiring Soon",
+  "pantryStatusExpired": "Expired",
+  "pantryStatusUnknown": "Unknown",
+  "pantryMealCal": "{value} cal",
+  "@pantryMealCal": {
+    "placeholders": {
+      "value": { "type": "String" }
+    }
+  },
+  "pantryMealAvailablePercent": "{value}% available",
+  "@pantryMealAvailablePercent": {
+    "placeholders": {
+      "value": { "type": "int" }
+    }
+  },
+  "pantryMealRequiredIngredients": "Required Ingredients",
+  "pantryMealInPantry": "In Pantry",
+  "pantryMealMissingIngredients": "Missing Ingredients",
+  "pantryMealEstimatedCost": "Estimated cost: ₹{value}",
+  "@pantryMealEstimatedCost": {
+    "placeholders": {
+      "value": { "type": "String" }
+    }
+  },
+  "pantryMealReadyToCook": "All ingredients available! Ready to cook.",
+  "pantryMealAddedMissingToGrocery": "Missing ingredients added to grocery list",
+  "pantryMealStartCooking": "Start Cooking",
+  "pantryMealAddMissingItems": "Add Missing Items to Grocery",
+  "pantryMealMissingLabel": "Missing: {value}",
+  "@pantryMealMissingLabel": {
+    "placeholders": {
+      "value": { "type": "String" }
+    }
+  },
+  "pantryMealAllAvailable": "All ingredients available!",
+  "pantryMealTapToView": "Tap to view details",
+  "pantryDetailsStock": "Current Stock",
+  "pantryDetailsDaysLeft": "Days Left",
+  "pantryDetailsDaysRange": "{value} days",
+  "@pantryDetailsDaysRange": {
+    "placeholders": {
+      "value": { "type": "int" }
+    }
+  },
+  "pantryDetailsPurchaseDate": "Purchase Date",
+  "pantryDetailsExpiryDate": "Expiry Date",
+  "pantryDetailsStockLevel": "Stock Level",
+  "pantryDetailsNoUsage": "No usage recorded yet",
+  "pantryDetailsUsageHistory": "Usage History",
+  "pantryDetailsMarkUsedTitle": "Mark {itemName} as Used",
+  "@pantryDetailsMarkUsedTitle": {
+    "placeholders": {
+      "itemName": { "type": "String" }
+    }
+  },
+  "pantryDetailsSelectPortion": "Select portion used:",
+  "pantryDetailsConfirm": "Confirm",
+  "pantryDetailsAddToList": "Add to List",
+  "pantryDetailsMarkUsed": "Mark Used",
+  "pantryDetailsExpiresLabel": "Expires: {date} ({days} days)",
+  "mockIngredientCapsicum": "Capsicum",
+  "mockIngredientMixedVeg": "Mixed Vegetables",
+  "mockIngredientDalia": "Dalia (Broken Wheat)",
+  "mockMealVegPulao": "Vegetable Pulao",
+  "mockMealPaneerTikka": "Paneer Tikka",
+  "mockMealDaliaKhichdi": "Dalia Khichdi",
+  "mockIngredientOnions": "Onions",
+  "mockIngredientTomatoes": "Tomatoes",
+  "mockIngredientSpinach": "Spinach",
+  "mockIngredientCarrots": "Carrots",
+  "mockIngredientBasmatiRice": "Basmati Rice",
+  "mockIngredientWheatFlour": "Whole Wheat Flour",
+  "mockIngredientMoongDal": "Moong Dal",
+  "mockIngredientTurmeric": "Turmeric Powder",
+  "mockIngredientCumin": "Cumin Seeds",
+  "mockIngredientGaramMasala": "Garam Masala",
+  "mockIngredientMilk": "Milk",
+  "mockIngredientYogurt": "Yogurt",
+  "mockIngredientPaneer": "Paneer",
+  "mockIngredientChicken": "Chicken Breast",
+  "mockIngredientEggs": "Eggs",
+  "mockIngredientGreenPeas": "Green Peas",
+  "mockIngredientCream": "Cream",
+  "mockIngredientButter": "Butter",
+  "mockIngredientCoconutMilk": "Coconut Milk",
+  "mockIngredientGarlic": "Garlic",
+  "mockMealDalTadka": "Dal Tadka",
+  "mockMealPaneerButterMasala": "Paneer Butter Masala",
+  "mockMealEggCurry": "Egg Curry",
+  "mealPlanRoastedMakhana": "Roasted Makhana with Green Tea",
+  "mealPlanRotiPalakPaneer": "Roti with Palak Paneer & Cucumber Raita",
+  
+  "mockMealIdliSambar": "Idli with Sambar",
+  "mockMealDosaChutney": "Dosa with Coconut Chutney",
+  "mockMealVegetableUpma": "Vegetable Upma",
+  "mockMealLemonRice": "Lemon Rice",
+  "mockMealCurdRice": "Curd Rice",
+  "mockMealRagiMudde": "Ragi Mudde with Saaru",
+  "mockMealRotiDalTadka": "Roti with Dal Tadka",
+  "mockMealRajmaChawal": "Rajma Chawal",
+  "mockMealVegetableKhichdi": "Vegetable Khichdi",
+  "mockMealCholeRice": "Chole with Rice",
+  "mockMealPaneerBhurji": "Paneer Bhurji with Roti",
+  
+  "@pantryDetailsExpiresLabel": {
+    "placeholders": {
+      "date": { "type": "String" },
+      "days": { "type": "int" }
+    }
+  }
+}

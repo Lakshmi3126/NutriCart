@@ -1,0 +1,831 @@
+{
+  "@@locale": "kn",
+
+  "appName": "ನ್ಯೂಟ್ರಿಕಾರ್ಟ್",
+
+  "dashboardGreeting": "ನಮಸ್ಕಾರ {userName} 👋",
+  "@dashboardGreeting": {
+    "placeholders": {
+      "userName": {
+        "type": "String"
+      }
+    }
+  },
+  "dashboardHighlightTitle": "ಇವತ್ತು ಚೆನ್ನಾಗಿ ಮುಂದುವರಿದಿದ್ದೀರಿ!",
+  "dashboardHighlightSubtitle": "ನಿಮ್ಮ ಬಜೆಟ್‌ಗೆ ತಕ್ಕಂತೆ ಊಟಗಳನ್ನು ಸರಿಹೊಂದಿಸಲಾಗಿದೆ",
+  "dashboardQuickActionsTitle": "ತ್ವರಿತ ಕ್ರಿಯೆಗಳು",
+  "dashboardQuickActionMealPlanTitle": "ಊಟ ಯೋಜನೆ",
+  "dashboardQuickActionMealPlanSubtitle": "ಇವತ್ತಿನ ಊಟಗಳನ್ನು ನೋಡಿ",
+  "dashboardQuickActionGroceryTitle": "ಗ್ರಾಸರಿ",
+  "dashboardQuickActionGrocerySubtitle": "ಕೊಂಡುಬರುವ ಪಟ್ಟಿಗಳು",
+  "dashboardQuickActionBudgetTitle": "ಬಜೆಟ್ ಟ್ರ್ಯಾಕರ್",
+  "dashboardQuickActionBudgetSubtitle": "ನಿಮ್ಮ ಖರ್ಚನ್ನು ಗಮನಿಸಿ",
+  "dashboardQuickActionPantryTitle": "ಪ್ಯಾಂಟ್ರಿ ನಿರ್ವಹಣೆ",
+  "dashboardQuickActionPantrySubtitle": "ನಿಮ್ಮ ಪದಾರ್ಥಗಳನ್ನು ಟ್ರಾಕ್ ಮಾಡಿ",
+  "dashboardQuickActionReengineeringTitle": "ಮೀಲ್ ರೀ-ಎಂಜಿನಿಯರಿಂಗ್",
+  "dashboardQuickActionReengineeringSubtitle": "ಸ್ಮಾರ್ಟ್ ಊಟ ಬದಲಾವಣೆಗಳನ್ನು ನೋಡಿ",
+  "dashboardQuickActionInsightsTitle": "ಆರೋಗ್ಯ ಒಳನೋಟಗಳು",
+  "dashboardQuickActionInsightsSubtitle": "ನಿಮ್ಮ ಆರೋಗ್ಯ ಪ್ರಗತಿಯನ್ನು ಟ್ರಾಕ್ ಮಾಡಿ",
+  "dashboardWhyTheseMealsTitle": "ಏಕೆ ಈ ಊಟಗಳು?",
+  "dashboardPantryAlertsTitle": "ಪ್ಯಾಂಟ್ರಿ ಎಚ್ಚರಿಕೆಗಳು",
+  "dashboardOverviewTitle": "ಇಂದಿನ ಊಟ",
+  "timeAM": "ಪೂರ್ವಾಹ್ನ",
+  "timePM": "ಅಪರಾಹ್ನ",
+
+  "seasonalSectionTitle": "ನಿಮ್ಮ ಹತ್ತಿರದ ಹಂಗಾಮಿ ಆಯ್ಕೆಗಳು 🌾",
+  "seasonalSectionSubtitle": "ಫೆಬ್ರವರಿಯಲ್ಲಿನ ಬೆಂಗಳೂರು ಮಾರುಕಟ್ಟೆ ಆಧಾರವಾಗಿ",
+  "seasonalButtonAddToGrocery": "ಗ್ರಾಸರಿ ಪಟ್ಟಿಗೆ ಸೇರಿಸಿ",
+  "seasonalSnackAddedToGrocery": "ಗ್ರಾಸರಿ ಪಟ್ಟಿಗೆ ಸೇರಿಸಲಾಗಿದೆ",
+
+  "groceryTitle": "ಗ್ರಾಸರಿ ಪಟ್ಟಿ",
+  "grocerySearchHint": "ಪದಾರ್ಥಗಳನ್ನು ಹುಡುಕಿ...",
+  "groceryEmptyTitle": "ಯಾವುದೇ ಐಟಂಗಳು ಇಲ್ಲ",
+  "groceryEmptyMessageDefault": "ನಿಮ್ಮ ಗ್ರಾಸರಿ ಪಟ್ಟಿ ಖಾಲಿಯಿದೆ. ಮೀಲ್ ಪ್ಲಾನ್‌ಗಳಿಂದ ಐಟಂಗಳನ್ನು ಸೇರಿಸಿ.",
+  "groceryEmptyMessageFiltered": "ನಿಮ್ಮ ಹುಡುಕಾಟಕ್ಕೆ ತಕ್ಕ ಪದಾರ್ಥಗಳು ಇಲ್ಲ.",
+  "groceryEmptyPrimary": "ಮೀಲ್‌ಗಳನ್ನು ಬ್ರೌಸ್ ಮಾಡಿ",
+  "groceryEmptyClearSearch": "ಹುಡುಕಾಟ ತೆರವುಗೊಳಿಸಿ",
+  "groceryFabAddItem": "ಐಟಂ ಸೇರಿಸಿ",
+
+  "grocerySnackAddedToPantry": "ಪ್ಯಾಂಟ್ರಿಗೆ ಸೇರಿಸಲಾಗಿದೆ",
+  "grocerySnackRemovedFromList": "ಪಟ್ಟಿಯಿಂದ ತೆಗೆದುಹಾಕಲಾಗಿದೆ",
+  "grocerySnackOpeningWhatsApp": "WhatsApp ತೆರೆಯಲಾಗುತ್ತಿದೆ...",
+  "grocerySnackOpeningSms": "SMS ತೆರೆಯಲಾಗುತ್ತಿದೆ...",
+  "grocerySnackCopiedList": "ಪಟ್ಟಿಯನ್ನು ಕ್ಲಿಪ್‌ಬೋರ್ಡ್‌ಗೆ ನಕಲಿಸಲಾಗಿದೆ",
+
+  "groceryShareTitle": "ಗ್ರಾಸರಿ ಪಟ್ಟಿಯನ್ನು ಹಂಚಿಕೊಳ್ಳಿ",
+
+  "groceryShoppingProgressTitle": "ಶಾಪಿಂಗ್ ಪ್ರಗತಿ",
+  "groceryShoppingProgressLabel": "{completed} / {total} ಐಟಂಗಳು",
+  "@groceryShoppingProgressLabel": {
+    "placeholders": {
+      "completed": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+
+  "deliverySectionTitle": "ಡೆಲಿವರಿ ಇಂಟಿಗ್ರೇಶನ್",
+  "deliverySectionSubtitle": "ನಿಮ್ಮ ಕರೆಯ ಒಟ್ಟು ಮೊತ್ತಕ್ಕೆ ಸರಿಹೊಂದುವ ಡೆಲಿವರಿ ಪಾಲುದಾರರನ್ನು ಆರಿಸಿ.",
+  "deliveryBigBasketTitle": "BigBasket",
+  "deliveryBigBasketSubtitle": "ಒಂದು ವಾರದ ಗ್ರಾಸರಿ ಖರೀದಿಗೆ ಸೂಕ್ತ",
+  "deliveryBigBasketFee": "ಕನಿಷ್ಠ ಆರ್ಡರ್: ₹500 • ಡೆಲಿವರಿ ಶುಲ್ಕ: ₹49",
+  "deliveryBigBasketEta": "ಅಂದಾಜು: 2–3 ಗಂಟೆ",
+  "deliveryBlinkitTitle": "Blinkit",
+  "deliveryBlinkitSubtitle": "ತ್ವರಿತ ಟಾಪ್-ಅಪ್‌ಗಳು ಮತ್ತು ತುರ್ತು ವಸ್ತುಗಳು",
+  "deliveryBlinkitFee": "ಕನಿಷ್ಠ ಆರ್ಡರ್: ₹199 • ಡೆಲಿವರಿ ಶುಲ್ಕ: ₹0",
+  "deliveryBlinkitEta": "ಅಂದಾಜು: 15–30 ನಿಮಿಷ",
+  "deliveryDMartTitle": "DMart Ready",
+  "deliveryDMartSubtitle": "ಸ್ಟೋರ್ ಪಿಕಪ್ ಮತ್ತು ಡೆಲಿವರಿ",
+  "deliveryDMartFee": "ಪ್ರಸ್ತುತ ಲಭ್ಯವಿಲ್ಲ",
+  "deliveryDMartEta": "ಅಂದಾಜು: —",
+  "deliveryAvailableForCart": "ನಿಮ್ಮ ಕಾರ್ಟ್‌ಗೆ ಲಭ್ಯ",
+  "deliveryMinOrderNotMet": "ಕನಿಷ್ಠ ಆರ್ಡರ್ ಮೊತ್ತ ತಲುಪಿಲ್ಲ",
+  "deliveryUnavailable": "ಲಭ್ಯವಿಲ್ಲ",
+  "deliverySelectedLabel": "ಆಯ್ದ ಡೆಲಿವರಿ: {provider}",
+  "@deliverySelectedLabel": {
+    "placeholders": {
+      "provider": {
+        "type": "String"
+      }
+    }
+  },
+  "deliveryChipSelected": "ಆಯ್ಕೆ ಮಾಡಲಾಗಿದೆ",
+  "deliveryChipSelect": "ಆಯ್ಕೆ",
+
+  "profileSetupTitle": "ಪ್ರೊಫೈಲ್ ಸೆಟಪ್",
+  "profileStepOfTotal": "ಹಂತ {current} / {total}",
+  "@profileStepOfTotal": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "profileStepPercent": "{percent}%",
+  "@profileStepPercent": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "profileContinue": "ಮುಂದುವರಿಸಿ",
+  "profileCompleteSetup": "ಸೆಟಪ್ ಪೂರ್ಣಗೊಳಿಸಿ",
+
+  "languageSelectorTitle": "ಆಪ್ ಭಾಷೆ",
+  "languageSelectorSubtitle": "ನಿಮ್ಮ ನ್ಯೂಟ್ರಿಕಾರ್ಟ್ ಅನುಭವಕ್ಕೆ ಭಾಷೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+  "languageEnglish": "English",
+  "languageKannada": "ಕನ್ನಡ",
+  "languageHindi": "हिन्दी",
+  "dashboardMealCompletedCount": "{total} ರಲ್ಲಿ {completed} ಊಟಗಳು",
+  "@dashboardMealCompletedCount": {
+    "placeholders": {
+      "completed": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "dashboardCalorieConsumed": "ಸೇವಿಸಿದೆ",
+  "dashboardCalorieRemaining": "ಬಾಕಿ",
+  "dashboardCalorieValue": "{value} kcal",
+  "@dashboardCalorieValue": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "dashboardUrgencyHigh": "ಹೆಚ್ಚು",
+  "dashboardUrgencyMedium": "ಮಧ್ಯಮ",
+  "dashboardUrgencyLow": "ಕಡಿಮೆ",
+  "dashboardWeeklyProgressTitle": "ಸಾಪ್ತಾಹಿಕ ಪ್ರಗತಿ",
+  "dashboardWeeklyProgressSubtitle": "ಪೌಷ್ಟಿಕಾಂಶ ಅನುಸರಣೆ ಟ್ರ್ಯಾಕಿಂಗ್",
+  "dashboardWeeklyProgressSemantics": "ದೈನಂದಿನ ಅನುಸರಣೆ ಶೇಕಡಾವಾರುಗಳನ್ನು ತೋರಿಸುವ ಸಾಪ್ತಾಹಿಕ ಪೌಷ್ಟಿಕಾಂಶ ಅನುಸರಣೆ ಬಾರ್ ಚಾರ್ಟ್",
+  "dashboardLegendExcellent": "ಅತ್ಯುತ್ತಮ",
+  "dashboardLegendGood": "ಉತ್ತಮ",
+  "dashboardLegendNeedsImprovement": "ಸುಧಾರಣೆ ಅಗತ್ಯವಿದೆ",
+  "dashboardLoading": "ಲೋಡ್ ಆಗುತ್ತಿದೆ...",
+  "dashboardOffline": "ಆಫ್‌ಲೈನ್",
+  "groceryCategoryVegetables": "ತರಕಾರಿಗಳು",
+  "groceryCategoryGrains": "ಧಾನ್ಯಗಳು",
+  "groceryCategorySpices": "ಮಸಾಲೆಗಳು",
+  "groceryCategoryDairy": "ಡೈರಿ",
+  "groceryBudgetSummaryTitle": "ಬಜೆಟ್ ಸಾರಾಂಶ",
+  "groceryWeeklyEstimate": "ಸಾಪ್ತಾಹಿಕ ಅಂದಾಜು",
+  "groceryMonthlyBudget": "ಮಾಸಿಕ ಬಜೆಟ್",
+  "grocerySpent": "ಖರ್ಚು ಮಾಡಿದೆ",
+  "groceryRemaining": "ಬಾಕಿ",
+  "groceryCurrency": "₹",
+  "groceryBudgetFriendlyTitle": "ಬಜೆಟ್ ಸ್ನೇಹಿ ಪರ್ಯಾಯಗಳು",
+  "groceryBudgetExceedsMessage": "ನಿಮ್ಮ ಪ್ರಸ್ತುತ ಪಟ್ಟಿಯು ಬಜೆಟ್‌ಗಿಂತ {amount} ಹೆಚ್ಚಿದೆ. ಈ ಪರ್ಯಾಯಗಳನ್ನು ಪರಿಗಣಿಸಿ:",
+  "@groceryBudgetExceedsMessage": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "grocerySaveAmount": "{amount} ಉಳಿಸಿ",
+  "@grocerySaveAmount": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "groceryTotal": "ಒಟ್ಟು: {amount}",
+  "@groceryTotal": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "groceryShareGeneratedBy": "{date} ರಂದು {appName} ಮೂಲಕ ರಚಿಸಲಾಗಿದೆ",
+  "@groceryShareGeneratedBy": {
+    "placeholders": {
+      "appName": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "profilePersonalDetails": "ವೈಯಕ್ತಿಕ ವಿವರಗಳು",
+  "profileHealthConditions": "ಆರೋಗ್ಯ ಸ್ಥಿತಿಗಳು",
+  "profileDietaryPreferences": "ಆಹಾರದ ಆದ್ಯತೆಗಳು",
+  "profileAllergies": "ಅಲರ್ಜಿಗಳು",
+  "profileBudget": "ಬಜೆಟ್",
+  "profileBudgetTitle": "ಮಾಸಿಕ ಆಹಾರ ಬಜೆಟ್",
+  "profileAge": "ವಯಸ್ಸು",
+  "profileWeight": "ತೂಕ",
+  "profileGender": "ಲಿಂಗ",
+  "profileGenderMale": "ಪುರುಷ",
+  "profileGenderFemale": "ಮಹಿಳೆ",
+  "profileHealthDiabetes": "ಮಧುಮೇಹ",
+  "profileHealthPCOS": "ಪಿ‌ಸಿ‌ಒ‌ಎಸ್",
+  "profileHealthHypertension": "ಅಧಿಕ ರಕ್ತದೊತ್ತಡ",
+  "profileHbA1c": "HbA1c ಮಟ್ಟ",
+  "profileDietVegetarian": "ಸಸ್ಯಾಹಾರಿ",
+  "profileDietVegan": "ವೀಗನ್",
+  "profileMonthlyBudgetLabel": "ಮಾಸಿಕ ಬಜೆಟ್ ನಮೂದಿಸಿ",
+  "profileUnitKg": "{value} ಕೆಜಿ",
+  "@profileUnitKg": {
+    "placeholders": {
+      "value": {
+        "type": "double"
+      }
+    }
+  },
+  "profileUnitYears": "{value} ವರ್ಷಗಳು",
+  "@profileUnitYears": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "dashboardModalMarkComplete": "ಪೂರ್ಣಗೊಂಡಿದೆ ಎಂದು ಗುರುತಿಸಿ",
+  "dashboardModalSkipMeal": "ಊಟ ಬಿಡಿ",
+  "dashboardModalRequestAlternative": "ಪರ್ಯಾಯಕ್ಕಾಗಿ ವಿನಂತಿಸಿ",
+  "dashboardOverviewTitle": "ಇಂದಿನ ಅವಲೋಕನ",
+  "profileUnitDays": "{value} ದಿನಗಳು",
+  "@profileUnitDays": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "groceryBudgetOverview": "ಬಜೆಟ್ ಅವಲೋಕನ",
+  "groceryUsedPercent": "{percent}% ಬಳಸಲಾಗಿದೆ",
+  "@groceryUsedPercent": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "groceryAvgDay": "ಸರಾಸರಿ/ದಿನ",
+  "groceryDaysLeftLabel": "ದಿನಗಳು ಬಾಕಿ",
+  "mockRecentMeal1Name": "ದಾಲ್ ತಡ್ಕಾದೊಂದಿಗೆ ಬ್ರೌನ್ ರೈಸ್",
+  "mockRecentMeal1Explanation": "ಪ್ರೋಟೀನ್ ಮತ್ತು ಫೈಬರ್‌ನಲ್ಲಿ ಸಮೃದ್ಧವಾಗಿದೆ, ರಕ್ತದ ಸಕ್ಕರೆಯ ಮಟ್ಟವನ್ನು ನಿರ್ವಹಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ. ದಾಲ್ PCOS ನಿರ್ವಹಣೆಗೆ ಅಗತ್ಯವಾದ ಅಮೈನೋ ಆಮ್ಲಗಳನ್ನು ಒದಗಿಸುತ್ತದೆ.",
+  "mockRecentMeal1Timestamp": "2 ಗಂಟೆಗಳ ಹಿಂದೆ",
+  "mockRecentMeal2Name": "ಓಟ್ಸ್ ಉಪ್ಮಾ",
+  "mockRecentMeal2Explanation": "ಕಡಿಮೆ ಗ್ಲೈಸೆಮಿಕ್ ಸೂಚ್ಯಂಕದ ಉಪಹಾರವು ನಿಮ್ಮನ್ನು ಹೆಚ್ಚು ಕಾಲ ಹಸಿವಾಗದಂತೆ ಮಾಡುತ್ತದೆ ಮತ್ತು ಸಕ್ಕರೆಯ ಏರಿಕೆಯನ್ನು ತಡೆಯುತ್ತದೆ. ಹೃದಯದ ಆರೋಗ್ಯಕ್ಕೆ ಬೀಟಾ-ಗ್ಲುಕನ್‌ನಿಂದ ಸಮೃದ್ಧವಾಗಿದೆ.",
+  "mockRecentMeal2Timestamp": "5 ಗಂಟೆಗಳ ಹಿಂದೆ",
+  "mockSeasonalPick1Name": "ಚಳಿಗಾಲದ ಸಿಟ್ರಸ್",
+  "mockSeasonalPick1Type": "ಹಣ್ಣು",
+  "mockSeasonalPick1Tag": "ಚಳಿಗಾಲದ ಸಿಟ್ರಸ್",
+  "mockSeasonalPick1Descriptor": "ಬೆಂಗಳೂರು ಸುತ್ತಮುತ್ತ ಫೆಬ್ರವರಿಯಲ್ಲಿ ಕಾಲೋಚಿತ",
+  "mockSeasonalPick2Name": "ತಾಜಾ ಪಾಲಕ್",
+  "mockSeasonalPick2Type": "ತರಕಾರಿ",
+  "mockSeasonalPick2Tag": "ಚಳಿಗಾಲದ ಎಲೆಕೋಸು",
+  "mockSeasonalPick2Descriptor": "ಫೆಬ್ರವರಿಯಲ್ಲಿ ಎಳೆಯ ಕಟ್ಟುಗಳು",
+  "seasonalFruit": "ಹಣ್ಣು",
+  "seasonalVegetable": "ತರಕಾರಿ",
+  "seasonalTagPeakSeason": "ಗರಿಷ್ಠ ಋತು",
+  "seasonalDescriptorPeakFeb": "ಫೆಬ್ರವರಿ ಕೊನೆಯಲ್ಲಿ ಗರಿಷ್ಠ ಲಭ್ಯತೆ",
+  "seasonalTagLocallyAbundant": "ಸ್ಥಳೀಯವಾಗಿ ಹೇರಳವಾಗಿರುವ",
+  "seasonalDescriptorCityMarkets": "ನಗರದ ಮಾರುಕಟ್ಟೆಗಳಲ್ಲಿ ಸ್ಥಿರ ಪೂರೈಕೆ",
+  "groceryWeeklyBudget": "ವಾರದ ಬಜೆಟ್",
+  "groceryOverBudget": "ಬಜೆಟ್ ಮೀರಿದೆ",
+  "groceryEstimated": "ಅಂದಾಜು",
+  "grocerySaveMore": "ಇನ್ನೂ ಉಳಿಸಿ",
+  "groceryPurchasedStatus": "{count}/{total} ಖರೀದಿಸಲಾಗಿದೆ",
+  "@groceryPurchasedStatus": {
+    "placeholders": {
+      "count": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "groceryEditQuantity": "ಪ್ರಮಾಣವನ್ನು ಬದಲಾಯಿಸಿ",
+  "groceryFindAlternatives": "ಪರ್ಯಾಯಗಳನ್ನು ಹುಡುಕಿ",
+  "groceryAddNotes": "ಟಿಪ್ಪಣಿಗಳನ್ನು ಸೇರಿಸಿ",
+  "groceryPantry": "ಪ್ಯಾಂಟ್ರಿ",
+  "groceryRemove": "ತೆಗೆದುಹಾಕಿ",
+  "groceryAlternativesTitle": "{name} ಗಾಗಿ ಪರ್ಯಾಯಗಳು",
+  "@groceryAlternativesTitle": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+  "groceryNoAlternatives": "ಯಾವುದೇ ಪರ್ಯಾಯಗಳು ಲಭ್ಯವಿಲ್ಲ",
+  "grocerySwitchedTo": "{name} ಗೆ ಬದಲಾಯಿಸಲಾಗಿದೆ",
+  "@grocerySwitchedTo": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+  "groceryClose": "ಮುಚ್ಚಿ",
+  "groceryCategoryProduce": "ಉತ್ಪನ್ನಗಳು",
+  "groceryCategoryMeat": "ಮಾಂಸ",
+  "groceryCategoryBakery": "ಬೇಕರಿ",
+  "groceryCategoryFrozen": "ಫ್ರೋಜನ್",
+  "groceryCategoryBeverages": "ಪಾನೀಯಗಳು",
+  "mockGroceryOnions": "ಈರುಳ್ಳಿ",
+  "mockGroceryTomatoes": "ಟೊಮೆಟೊ",
+  "mockGroceryBasmatiRice": "ಬಾಸ್ಮತಿ ಅಕ್ಕಿ",
+  "mockGroceryWholeWheatFlour": "ಗೋಧಿ ಹಿಟ್ಟು",
+  "mockGroceryTurmericPowder": "ಅರಿಶಿನ ಪುಡಿ",
+  "mockGroceryCuminSeeds": "ಜೀರಿಗೆ",
+  "mockGroceryGaramMasala": "ಗರಂ ಮಸಾಲಾ",
+  "mockGroceryMilk": "ಹಾಲು",
+  "mockGroceryYogurt": "ಮೊಸರು",
+  "mockGroceryPaneer": "ಪನೀರ್",
+  "profilePersonalSubtitle": "ಮೂಲ ಮಾಹಿತಿಯೊಂದಿಗೆ ನಿಮ್ಮ ಆಹಾರ ಯೋಜನೆಗಳನ್ನು ವೈಯಕ್ತೀಕರಿಸಲು ನಮಗೆ ಸಹಾಯ ಮಾಡಿ",
+  "profileAgeLabel": "ವಯಸ್ಸು *",
+  "profileAgeHint": "ನಿಮ್ಮ ವಯಸ್ಸನ್ನು ನಮೂದಿಸಿ",
+  "profileAgeRequired": "ವಯಸ್ಸು ಅಗತ್ಯವಿದೆ",
+  "profileAgeInvalid": "ದಯವಿಟ್ಟು ಮಾನ್ಯ ವಯಸ್ಸನ್ನು ನಮೂದಿಸಿ (18-100)",
+  "profileGenderLabel": "ಲಿಂಗ *",
+  "profileGenderOther": "ಇತರೆ",
+  "profileWeightLabel": "ತೂಕ (ಕೆಜಿ) *",
+  "profileWeightHint": "ನಿಮ್ಮ ತೂಕವನ್ನು ನಮೂದಿಸಿ",
+  "profileWeightRequired": "ತೂಕ ಅಗತ್ಯವಿದೆ",
+  "profileWeightInvalid": "ದಯವಿಟ್ಟು ಮಾನ್ಯ ತೂಕವನ್ನು ನಮೂದಿಸಿ (30-200 ಕೆಜಿ)",
+  "profileWhyNeedInfo": "ನಮಗೆ ಈ ಮಾಹಿತಿ ಏಕೆ ಬೇಕು?",
+  "profileUsageTitle": "ವೈಯಕ್ತಿಕ ಮಾಹಿತಿಯ ಬಳಕೆ",
+  "profileUsageAge": "ವಯಸ್ಸು ನಿಮ್ಮ ದೈನಂದಿನ ಕ್ಯಾಲೋರಿ ಅಗತ್ಯತೆಗಳು ಮತ್ತು ಪೌಷ್ಟಿಕಾಂಶದ ಅಗತ್ಯಗಳನ್ನು ಲೆಕ್ಕಹಾಕಲು ನಮಗೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ",
+  "profileUsageGender": "ಲಿಂಗವು ಚಯಾಪಚಯ ದರ ಮತ್ತು ನಿರ್ದಿಷ್ಟ ಪೋಷಕಾಂಶಗಳ ಅಗತ್ಯತೆಗಳ ಮೇಲೆ ಪ್ರಭಾವ ಬೀರುತ್ತದೆ",
+  "profileUsageWeight": "ಭಾಗ ನಿಯಂತ್ರಣ ಮತ್ತು ವೈಯಕ್ತೀಕರಿಸಿದ ಆಹಾರ ಯೋಜನೆಗಾಗಿ ತೂಕವು ಅತ್ಯಗತ್ಯ",
+  "profileUsageSecurity": "ಎಲ್ಲಾ ಡೇಟಾವನ್ನು ಎನ್‌ಕ್ರಿಪ್ಟ್ ಮಾಡಲಾಗಿದೆ ಮತ್ತು ನಿಮ್ಮ ಆಹಾರ ಶಿಫಾರಸುಗಳಿಗಾಗಿ ಮಾತ್ರ ಬಳಸಲಾಗುತ್ತದೆ",
+  "profileHealthSubtitle": "ನೀವು ನಿರ್ವಹಿಸುವ ಯಾವುದೇ ಆರೋಗ್ಯ ಪರಿಸ್ಥಿತಿಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ (ಐಚ್ಛಿಕ)",
+  "profileHealthDiabetesDesc": "ಟೈಪ್ 1 ಅಥವಾ ಟೈಪ್ 2 ಮಧುಮೇಹ",
+  "profileHealthPCOSDesc": "ಪಾಲಿಸಿಸ್ಟಿಕ್ ಓವರಿ ಸಿಂಡ್ರೋಮ್",
+  "profileHealthHypertensionDesc": "ಅಧಿಕ ರಕ್ತದೊತ್ತಡ",
+  "profileHealthAnemia": "ರಕ್ತಹೀನತೆ",
+  "profileHealthAnemiaDesc": "ಕಬ್ಬಿಣದ ಕೊರತೆ",
+  "profileHealthThyroid": "ಥೈರಾಯ್ಡ್",
+  "profileHealthThyroidDesc": "ಥೈರಾಯ್ಡ್ ಅಸ್ವಸ್ಥತೆಗಳು",
+  "profileHealthHeart": "ಹೃದಯ ಕಾಯಿಲೆ",
+  "profileHealthHeartDesc": "ಹೃದಯರಕ್ತನಾಳದ ಪರಿಸ್ಥಿತಿಗಳು",
+  "profileHbA1cLabel": "HbA1c ಮಟ್ಟ (ಐಚ್ಛಿಕ)",
+  "profileHbA1cHint": "ನಿಮ್ಮ HbA1c ಮಟ್ಟವನ್ನು ನಮೂದಿಸಿ (ಉದಾ, 6.5)",
+  "profileHbA1cInfo": "ಇದು ಮಧುಮೇಹ ನಿರ್ವಹಣೆಗಾಗಿ ಹೆಚ್ಚು ನಿಖರವಾದ ಆಹಾರ ಶಿಫಾರಸುಗಳನ್ನು ಒದಗಿಸಲು ನಮಗೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ",
+  "profileSafetyTitle": "ವೈದ್ಯಕೀಯ ಪೌಷ್ಟಿಕಾಂಶದ ಸುರಕ್ಷತೆ",
+  "profileSafetyCondition": "ಆರೋಗ್ಯ ಪರಿಸ್ಥಿತಿಗಳು ನಿಮ್ಮ ಪೌಷ್ಟಿಕಾಂಶದ ಅಗತ್ಯತೆಗಳು ಮತ್ತು ಆಹಾರದ ನಿರ್ಬಂಧಗಳ ಮೇಲೆ ಪರಿಣಾಮ ಬೀರುತ್ತವೆ",
+  "profileSafetyCompliance": "ಆಹಾರ ಯೋಜನೆಗಳು ವೈದ್ಯಕೀಯ ಪೌಷ್ಟಿಕಾಂಶದ ಮಾರ್ಗಸೂಚಿಗಳನ್ನು ಅನುಸರಿಸುತ್ತವೆ ಎಂದು ನಾವು ಖಚಿತಪಡಿಸುತ್ತೇವೆ",
+  "profileSafetyPrevention": "ನಿಮ್ಮ ಸ್ಥಿತಿಯನ್ನು ಹದಗೆಡಿಸುವ ಆಹಾರಗಳನ್ನು ಸೂಚಿಸುವುದನ್ನು ತಡೆಯುತ್ತದೆ",
+  "profileSafetyBalance": "ನಿಮ್ಮ ಆರೋಗ್ಯ ಅಗತ್ಯಗಳಿಗೆ ನಿರ್ದಿಷ್ಟವಾದ ಪೋಷಕಾಂಶಗಳನ್ನು ಸಮತೋಲನಗೊಳಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ",
+  "profileSafetyGuidelines": "ಎಲ್ಲಾ ಶಿಫಾರಸುಗಳು ಜೀವನಶೈಲಿ ರೋಗಗಳಿಗಾಗಿ ಭಾರತೀಯ ಆಹಾರ ಮಾರ್ಗಸೂಚಿಗಳನ್ನು ಅನುಸರಿಸುತ್ತವೆ",
+  "profileDietSubtitle": "ನಿಮ್ಮ ಆಹಾರದ ಆದ್ಯತೆಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ (ಕನಿಷ್ಠ ಒಂದು ಅಗತ್ಯವಿದೆ)",
+  "profileDietVeg": "ಸಸ್ಯಾಹಾರಿ",
+  "profileDietVegDesc": "ಮಾಂಸ, ಮೀನು ಅಥವಾ ಕೋಳಿ ಇಲ್ಲ",
+  "profileDietVeganDesc": "ಯಾವುದೇ ಪ್ರಾಣಿ ಉತ್ಪನ್ನಗಳಿಲ್ಲ",
+  "profileDietJain": "ಜೈನ",
+  "profileDietJainDesc": "ಗಡ್ಡೆ ಗೆಣಸುಗಳಿಲ್ಲ (ಬೇರು ತರಕಾರಿಗಳಿಲ್ಲ)",
+  "profileDietEgg": "ಮೊಟ್ಟೆಯೊಂದಿಗೆ ಸಸ್ಯಾಹಾರಿ",
+  "profileDietEggDesc": "ಮೊಟ್ಟೆಯೊಂದಿಗೆ ಸಸ್ಯಾಹಾರಿ",
+  "profileDietNonVeg": "ಮಾಂಸಾಹಾರಿ",
+  "profileDietNonVegDesc": "ಎಲ್ಲಾ ರೀತಿಯ ಆಹಾರಗಳನ್ನು ಒಳಗೊಂಡಿದೆ",
+  "profileDietPescatarian": "ಪೆಸ್ಕೆಟೇರಿಯನ್",
+  "profileDietPescatarianDesc": "ಮೀನಿನೊಂದಿಗೆ ಸಸ್ಯಾಹಾರಿ",
+  "profileDietMultipleInfo": "ನೀವು ಬಹು ಆದ್ಯತೆಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಬಹುದು. ಉದಾಹರಣೆಗೆ, ಸಸ್ಯಾಹಾರಿ + ಜೈನ ಅಥವಾ ಮೊಟ್ಟೆಯೊಂದಿಗೆ ಸಸ್ಯಾಹಾರಿ + ಪೆಸ್ಕೆಟೇರಿಯನ್.",
+  "profileDietImportanceTitle": "ಆಹಾರದ ಆದ್ಯತೆಯ ಮಹತ್ವ",
+  "profileDietImportanceRespect": "ಎಲ್ಲಾ ಆಹಾರ ಸಲಹೆಗಳು ನಿಮ್ಮ ಆಹಾರದ ಆಯ್ಕೆಗಳನ್ನು ಗೌರವಿಸುತ್ತವೆ ಎಂದು ಖಚಿತಪಡಿಸುತ್ತದೆ",
+  "profileDietImportanceFilter": "ನಿಮ್ಮ ಆದ್ಯತೆಗಳಿಗೆ ಹೊಂದಿಕೆಯಾಗದ ಪದಾರ್ಥಗಳನ್ನು ಫಿಲ್ಟರ್ ಮಾಡುತ್ತದೆ",
+  "profileDietImportanceCultural": "ಸಾಂಸ್ಕೃತಿಕವಾಗಿ ಸೂಕ್ತವಾದ ಭಾರತೀಯ ಆಹಾರ ಆಯ್ಕೆಗಳನ್ನು ಒದಗಿಸುತ್ತದೆ",
+  "profileDietImportanceBalance": "ನಿಮ್ಮ ಆಹಾರ ಚೌಕಟ್ಟಿನೊಳಗೆ ಪೌಷ್ಟಿಕಾಂಶದ ಸಮತೋಲನವನ್ನು ಕಾಪಾಡಿಕೊಳ್ಳಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ",
+  "profileDietImportanceReligious": "ಧಾರ್ಮಿಕ ಮತ್ತು ನೈತಿಕ ಆಹಾರ ಆಯ್ಕೆಗಳನ್ನು ಬೆಂಬಲಿಸುತ್ತದೆ",
+  "profileBudgetSubtitle": "ಸ್ಮಾರ್ಟ್ ಆಹಾರ ಯೋಜನೆಗಾಗಿ ನಿಮ್ಮ ಮಾಸಿಕ ಆಹಾರ ಬಜೆಟ್ ಅನ್ನು ನಿಗದಿಪಡಿಸಿ",
+  "profileBudgetAmountLabel": "ಬಜೆಟ್ ಮೊತ್ತವನ್ನು ನಮೂದಿಸಿ *",
+  "profileBudgetAmountHint": "ನಿಮ್ಮ ಮಾಸಿಕ ಆಹಾರ ಬಜೆಟ್ ಅನ್ನು ನಮೂದಿಸಿ",
+  "profileBudgetAmountRequired": "ಬಜೆಟ್ ಅಗತ್ಯವಿದೆ",
+  "profileBudgetAmountMin": "ಕನಿಷ್ಠ ಬಜೆಟ್ ₹1,000",
+  "profileBudgetAmountMax": "ಗರಿಷ್ಠ ಬಜೆಟ್ ₹1,00,000",
+  "profileBudgetQuickSelect": "ತ್ವರಿತ ಆಯ್ಕೆ",
+  "profileBudgetBreakdownTitle": "ಬಜೆಟ್ ವಿವರ",
+  "profileBudgetDaily": "ದೈನಂದಿನ ಬಜೆಟ್",
+  "profileBudgetWeekly": "ಸಾಪ್ತಾಹಿಕ ಬಜೆಟ್",
+  "profileBudgetPerMeal": "ಪ್ರತಿ ಊಟಕ್ಕೆ (ಅಂದಾಜು)",
+  "profileBudgetSavingsInfo": "ನಾವು ಬಜೆಟ್ ಸ್ನೇಹಿ ಪದಾರ್ಥಗಳ ಪರ್ಯಾಯಗಳನ್ನು ಸೂಚಿಸುತ್ತೇವೆ ಮತ್ತು ತಿಂಗಳ ಉದ್ದಕ್ಕೂ ಖರ್ಚನ್ನು ಟ್ರ್ಯಾಕ್ ಮಾಡಲು ನಿಮಗೆ ಸಹಾಯ ಮಾಡುತ್ತೇವೆ.",
+  "profileBudgetAwareTitle": "ಬಜೆಟ್-ಜಾಗೃತ ಯೋಜನೆ",
+  "profileBudgetAwareSuggest": "ನಿಮ್ಮ ಮಾಸಿಕ ಬಜೆಟ್‌ನಲ್ಲಿ ಸರಿಹೊಂದುವ ಊಟಗಳನ್ನು ಸೂಚಿಸುತ್ತದೆ",
+  "profileBudgetAwareCost": "ವೆಚ್ಚ-ಪರಿಣಾಮಕಾರಿ ಪದಾರ್ಥಗಳ ಆಯ್ಕೆಗಳನ್ನು ಒದಗಿಸುತ್ತದೆ",
+  "profileBudgetAwareTrack": "ತಿಂಗಳ ಉದ್ದಕ್ಕೂ ದಿನಸಿ ಖರ್ಚನ್ನು ಟ್ರ್ಯಾಕ್ ಮಾಡಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ",
+  "profileBudgetAwareOptimize": "ಕನಿಷ್ಠ ವೆಚ್ಚದಲ್ಲಿ ಗರಿಷ್ಠ ಪೌಷ್ಟಿಕಾಂಶಕ್ಕಾಗಿ ಆಹಾರ ಯೋಜನೆಗಳನ್ನು ಉತ್ತಮಗೊಳಿಸುತ್ತದೆ",
+  "profileBudgetAwarePrevent": "ದಿನಸಿಗಳ ಮೇಲೆ ಅತಿಯಾದ ಖರ್ಚನ್ನು ತಡೆಯುತ್ತದೆ",
+  "profileAllergyTitle": "ಅಲರ್ಜಿಗಳು ಮತ್ತು ಅಸಹಿಷ್ಣುತೆಗಳು",
+  "profileAllergySubtitle": "ಯಾವುದೇ ಆಹಾರ ಅಲರ್ಜಿಗಳು ಅಥವಾ ಅಸಹಿಷ್ಣುತೆಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ (ಐಚ್ಛಿಕ)",
+  "profileAllergySearchHint": "ಹುಡುಕಿ ಅಥವಾ ಕಸ್ಟಮ್ ಅಲರ್ಜಿಯನ್ನು ಸೇರಿಸಿ",
+  "profileAllergySelected": "ಆಯ್ಕೆಮಾಡಿದ ಅಲರ್ಜಿಗಳು",
+  "profileAllergyCommon": "ಸಾಮಾನ್ಯ ಅಲರ್ಜಿಗಳು",
+  "profileAllergyWarning": "ಎಲ್ಲಾ ಆಹಾರ ಯೋಜನೆಗಳು ನೀವು ಅಲರ್ಜಿಯನ್ನು ಹೊಂದಿರುವ ಪದಾರ್ಥಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಹೊರಗಿಡುತ್ತವೆ. ತೀವ್ರ ಅಲರ್ಜಿಗಳಿಗಾಗಿ ದಯವಿಟ್ಟು ನಿಮ್ಮ ವೈದ್ಯರನ್ನು ಸಂಪರ್ಕಿಸಿ.",
+  "profileAllergySafetyTitle": "ಅಲರ್ಜಿ ಸುರಕ್ಷತೆ",
+  "profileAllergySafetyPrevents": "ನಿಮಗೆ ಹಾನಿ ಮಾಡುವ ಅಲರ್ಜಿನ್ ಉಳ್ಳ ಆಹಾರಗಳನ್ನು ಸೂಚಿಸುವುದನ್ನು ತಡೆಯುತ್ತದೆ",
+  "profileAllergySafetyFilters": "ಎಲ್ಲಾ ಶಿಫಾರಸುಗಳಿಂದ ಅಸುರಕ್ಷಿತ ಪದಾರ್ಥಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಫಿಲ್ಟರ್ ಮಾಡುತ್ತದೆ",
+  "profileAllergySafetySubstitutions": "ಆಹಾರ ಯೋಜನೆಗಳಲ್ಲಿ ಸುರಕ್ಷಿತ ಪದಾರ್ಥಗಳ ಪರ್ಯಾಯಗಳನ್ನು ಒದಗಿಸುತ್ತದೆ",
+  "profileAllergySafetyExclude": "ದಿನಸಿ ಪಟ್ಟಿಗಳು ಅಲರ್ಜಿ ಉಂಟುಮಾಡುವ ವಸ್ತುಗಳನ್ನು ಹೊರಗಿಡುವುದನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ",
+  "profileAllergySafetyCritical": "ನಿಮ್ಮ ಆರೋಗ್ಯ ಮತ್ತು ಸುರಕ್ಷತೆಗೆ ವಿಮರ್ಶಾತ್ಮಕವಾಗಿದೆ",
+  "allergyPeanuts": "ಕಡಲೆಕಾಯಿ",
+  "allergyTreeNuts": "ಟ್ರೀ ನಟ್ಸ್",
+  "allergyMilk": "ಹಾಲು",
+  "allergyEggs": "ಮೊಟ್ಟೆಗಳು",
+  "allergyWheat": "ಗೋಧಿ",
+  "allergySoy": "ಸೋಯಾ",
+  "allergyFish": "ಮೀನು",
+  "allergyShellfish": "ಶೆಲ್‌ಫಿಶ್",
+  "allergySesame": "ಎಳ್ಳು",
+  "allergyMustard": "ಸಾಸಿವೆ",
+  "allergyGluten": "ಗ್ಲುಟನ್",
+  "allergyLactose": "ಲ್ಯಾಕ್ಟೋಸ್",
+  "allergyCorn": "ಜೋಳ",
+  "allergyGarlic": "ಬೆಳ್ಳುಳ್ಳಿ",
+  "allergyOnion": "ಈರುಳ್ಳಿ",
+  "allergyTomato": "ಟೊಮೆಟೊ",
+  "allergyCitrus": "ಸಿಟ್ರಸ್ ಹಣ್ಣುಗಳು",
+  "allergyStrawberries": "ಸ್ಟ್ರಾಬೆರಿಗಳು",
+  "allergyChocolate": "ಚಾಕೊಲೇಟ್",
+  "allergyCaffeine": "ಕೆಫೀನ್",
+  "mockGroceryGinger": "ಶುಂಠಿ",
+  "mockGroceryGreenChillies": "ಹಸಿ ಮೆಣಸಿನಕಾಯಿ",
+  "mockGroceryCorianderLeaves": "ಕೊತ್ತಂಬರಿ ಸೊಪ್ಪು",
+  "mockGroceryReasonFreq": "ಪದೇ ಪದೇ ಖರೀದಿಸಲಾಗುತ್ತದೆ",
+  "mockGroceryReasonOften": "ಸಾಮಾನ್ಯವಾಗಿ {item} ಜೊತೆಗೆ ಖರೀದಿಸಲಾಗುತ್ತದೆ",
+  "@mockGroceryReasonOften": {
+    "placeholders": {
+      "item": { "type": "String" }
+    }
+  },
+  "mockGroceryReasonPlan": "ನಿಮ್ಮ ಊಟದ ಯೋಜನೆಗೆ ಪೂರಕವಾಗಿದೆ",
+  "groceryShoppingProgressTitle": "ಖರೀದಿ ಪ್ರಗತಿ",
+  "groceryShoppingProgressLabel": "{purchased}/{total} ವಸ್ತುಗಳು",
+  "@groceryShoppingProgressLabel": {
+    "placeholders": {
+      "purchased": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "deliverySectionTitle": "ಡೆಲಿವರಿ ಏಕೀಕರಣ",
+  "deliverySectionSubtitle": "ನಿಮ್ಮ ಕಾರ್ಟ್ ಆಧಾರಿತ ತ್ವರಿತ ವಿತರಣಾ ಆಯ್ಕೆಗಳು",
+  "deliveryBigBasketTitle": "BigBasket",
+  "deliveryBigBasketSubtitle": "ಎಲ್ಲಾ ದಿನಸಿ ವಸ್ತುಗಳು",
+  "deliveryBigBasketFee": "ಶುಲ್ಕ: ₹30 (₹500 ಕ್ಕಿಂತ ಹೆಚ್ಚು ಉಚಿತ)",
+  "deliveryBigBasketEta": "ಸಮಯ: 4-6 ಗಂಟೆಗಳು",
+  "deliveryBlinkitTitle": "Blinkit",
+  "deliveryBlinkitSubtitle": "ತತ್‌ಕ್ಷಣ ವಿತರಣೆ",
+  "deliveryBlinkitFee": "ಶುಲ್ಕ: ₹25 (₹199 ಕ್ಕಿಂತ ಹೆಚ್ಚು ಉಚಿತ)",
+  "deliveryBlinkitEta": "ಸಮಯ: 15-20 ನಿಮಿಷಗಳು",
+  "deliveryDMartTitle": "DMart Ready",
+  "deliveryDMartSubtitle": "ಮಿತವ್ಯಯದ ಖರೀದಿ",
+  "deliveryDMartFee": "ಪಿಕಪ್: ಉಚಿತ | ವಿತರಣೆ: ₹49",
+  "deliveryDMartEta": "ಸಮಯ: ಮರುದಿನ",
+  "deliveryAvailableForCart": "ನಿಮ್ಮ ಕಾರ್ಟ್ ಗಾತ್ರಕ್ಕೆ ಲಭ್ಯವಿದೆ",
+  "deliveryMinOrderNotMet": "ಕನಿಷ್ಠ ಆರ್ಡರ್ ಮೊತ್ತವನ್ನು ತಲುಪಿಲ್ಲ",
+  "deliveryUnavailable": "ಪ್ರಸ್ತುತ ನಿಮ್ಮ ಪ್ರದೇಶದಲ್ಲಿ ಲಭ್ಯವಿಲ್ಲ",
+  "deliveryChipSelected": "ಆಯ್ಕೆಮಾಡಲಾಗಿದೆ",
+  "deliveryChipSelect": "ಆಯ್ಕೆ ಮಾಡಿ",
+  "deliverySelectedLabel": "ಆಯ್ಕೆಮಾಡಿದ ಡೆಲಿವರಿ: {provider}",
+  "@deliverySelectedLabel": {
+    "placeholders": {
+      "provider": { "type": "String" }
+    }
+  },
+  "loadingGeneral": "ಲೋಡ್ ಆಗುತ್ತಿದೆ...",
+  "groceryExceedsBudgetInfo": "ನಿಮ್ಮ ಪ್ರಸ್ತುತ ಪಟ್ಟಿ ಬಜೆಟ್‌ಗಿಂತ {amount} ಹೆಚ್ಚಿದೆ. ಈ ಪರ್ಯಾಯಗಳನ್ನು ಪರಿಗಣಿಸಿ:",
+  "@groceryExceedsBudgetInfo": {
+    "placeholders": {
+      "amount": { "type": "String" }
+    }
+  },
+  "grocerySubstitutionPrompt": "{item1} ಅನ್ನು {item2} ಗೆ ಬದಲಾಯಿಸುವುದೇ?",
+  "@grocerySubstitutionPrompt": {
+    "placeholders": {
+      "item1": { "type": "String" },
+      "item2": { "type": "String" }
+    }
+  },
+  "groceryImpactMinimal": "ರುಚಿಯ ಮೇಲೆ ಪರಿಣಾಮ ಕಡಿಮೆ",
+  "groceryCategoryPantry": "ಪ್ಯಾಂಟ್ರಿ ಸ್ಟೇಪಲ್ಸ್",
+  "groceryItemBrownRice": "ಬ್ರೌನ್ ರೈಸ್",
+  "groceryItemMoongDal": "ಹೆಸರು ಬೇಳೆ",
+  "groceryItemSpinach": "ಪಾಲಕ್",
+  "groceryItemCarrots": "ಗಜ್ಜರಿ",
+  "groceryBudgetFriendlyAlts": "ಬಜೆಟ್ ಸ್ನೇಹಿ ಪರ್ಯಾಯಗಳು",
+  "profileGenderMale": "ಪುರುಷ",
+  "profileGenderFemale": "ಮಹಿಳೆ",
+  "mealPlanTitle": "ದೈನಂದಿನ ಊಟದ ಯೋಜನೆ",
+  "mealPlanNoPlan": "ಯಾವುದೇ ಊಟದ ಯೋಜನೆ ಲಭ್ಯವಿಲ್ಲ",
+  "mealPlanBreakfast": "ಉಪಾಹಾರ",
+  "mealPlanLunch": "ಮಧ್ಯಾಹ್ನದ ಊಟ",
+  "mealPlanDinner": "ರಾತ್ರಿಯ ಊಟ",
+  "mealPlanSnacks": "ತಿಂಡಿಗಳು",
+  "mealPlanToday": "ಇಂದು",
+  "mealPlanPrevDay": "ಹಿಂದಿನ ದಿನ",
+  "mealPlanNextDay": "ಮುಂದಿನ ದಿನ",
+  "mealPlanWhyMeal": "ಏಕೆ ಈ ಊಟ?",
+  "mealPlanCookingSteps": "ಅಡುಗೆ ಕ್ರಮಗಳು",
+  "mealPlanListenInstructions": "ಸೂಚನೆಗಳನ್ನು ಆಲಿಸಿ",
+  "mealPlanIngredients": "ಪದಾರ್ಥಗಳು",
+  "mealPlanAddCount": "ಸೇರಿಸಿ ({count})",
+  "mealPlanCanSubstitute": "{item} ಬದಲಿಯಾಗಿ ಬಳಸಬಹುದು",
+  "mealPlanLongPressSelect": "ದಿನಸಿ ಪಟ್ಟಿಗೆ ಪದಾರ್ಥಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಲು ದೀರ್ಘವಾಗಿ ಒತ್ತಿರಿ",
+  "mealPlanPrepTime": "ತಯಾರಿಕೆಯ ಸಮಯ",
+  "mealPlanServings": "ಸರ್ವಿಂಗ್ಸ್",
+  "mealPlanCalories": "ಕ್ಯಾಲೋರಿಗಳು",
+  "mealPlanKcalValue": "{value} ಕಿಲೋಕ್ಯಾಲೋರಿ",
+  "mealPlanFeedbackTitle": "ಊಟದ ಪ್ರತಿಕ್ರಿಯೆ",
+  "mealPlanEaten": "ಸೇವಿಸಲಾಗಿದೆ",
+  "mealPlanPartial": "ಭಾಗಶಃ",
+  "mealPlanSkipped": "ಬಿಡಲಾಗಿದೆ",
+  "mealPlanAdaptFeedback": "ನಿಮ್ಮ ಪ್ರತಿಕ್ರಿಯೆಗೆ ಅನುಗುಣವಾಗಿ ಯೋಜನೆ ಬದಲಾಗುತ್ತದೆ",
+  "mealPlanKcal": "{value} ಕೆಸಿಎಲ್",
+  "@mealPlanKcal": {
+    "placeholders": {
+      "value": { "type": "String" }
+    }
+  },
+  "mealPlanRupee": "₹{value}",
+  "@mealPlanRupee": {
+    "placeholders": {
+      "value": { "type": "String" }
+    }
+  },
+  "mealPlanBudgetWithin": "ಬಜೆಟ್ ಒಳಗಿದೆ - ಉತ್ತಮ ಕೆಲಸ!",
+  "mealPlanBudgetExceeded": "ಬಜೆಟ್ ₹{amount} ಮೀರಿ ಹೋಗಿದೆ",
+  "@mealPlanBudgetExceeded": {
+    "placeholders": {
+      "amount": { "type": "String" }
+    }
+  },
+  "mealPlanSummaryTitle": "ದೈನಂದಿನ ಸಾರಾಂಶ",
+  "mealPlanTotalCalories": "ಒಟ್ಟು ಕ್ಯಾಲೋರಿಗಳು",
+  "mealPlanTotalCost": "ಒಟ್ಟು ವೆಚ್ಚ",
+  "mealPlanAISelectedHeader": "ನಮ್ಮ AI ಈ ಕೆಳಗಿನವುಗಳ ಆಧಾರದ ಮೇಲೆ ಈ ಊಟವನ್ನು ಆಯ್ಕೆ ಮಾಡಿದೆ:",
+  "mealPlanWhyToday": "ಇಂದಿನ ಊಟದ ಕಾರಣ",
+  "mealPlanReason1": "ಪ್ರೋಟೀನ್ ಭರಿತ ಉಪಾಹಾರವು ನಿಮ್ಮ ಪಿಸಿಓಎಸ್ ನಿರ್ವಹಣೆಗೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ ಮತ್ತು ಹೊಟ್ಟೆ ಹಸಿವಾಗದಂತೆ ತಡೆಯುತ್ತದೆ",
+  "mealPlanReason2": "ಮಧ್ಯಾಹ್ನದ ಊಟದಲ್ಲಿ ಮಧುಮೇಹ ನಿಯಂತ್ರಣಕ್ಕೆ ಸೂಕ್ತವಾದ ಕಡಿಮೆ ಜಿಐ ಆಹಾರಗಳು ಸಮತೋಲಿತ ಪೋಷಕಾಂಶಗಳೊಂದಿಗೆ ಸೇರಿವೆ",
+  "mealPlanReason3": "ರಾತ್ರಿಯ ಊಟ ಹಗುರ ಮತ್ತು ಪೌಷ್ಟಿಕವಾಗಿದೆ, ಇದು ಉತ್ತಮ ನಿದ್ರೆ ಮತ್ತು ಜೀರ್ಣಕ್ರಿಯೆಯನ್ನು ಉತ್ತೇಜಿಸುತ್ತದೆ",
+  "mealPlanReason4": "ಎಲ್ಲಾ ಊಟಗಳು ನಿಮ್ಮ ದೈನಂದಿನ ಬಜೆಟ್ ಮಿತಿಯಲ್ಲಿ ಪೌಷ್ಟಿಕಾಂಶದ ಗುರಿಗಳನ್ನು ಪೂರೈಸುತ್ತವೆ",
+  "mealPlanOatsUpma": "ತರಕಾರಿಗಳೊಂದಿಗೆ ಓಟ್ಸ್ ಉಪ್ಪಿಟ್ಟು",
+  "mealPlanMoongDalCheela": "ಪುದೀನಾ ಚಟ್ನಿಯೊಂದಿಗೆ ಹೆಸರು ಬೇಳೆ ದೋಸೆ",
+  "mealPlanRagiDosa": "ಸಾಂಬಾರ್ ಜೊತೆಗೆ ರಾಗಿ ದೋಸೆ",
+  "mealPlanBrownRiceDal": "ಬ್ರೌನ್ ರೈಸ್, ದಾಲ್ ತಡ್ಕಾ ಮತ್ತು ಸಲಾಡ್",
+  "mealPlanQuinoaPulao": "ರೈತದೊಂದಿಗೆ ಕ್ವಿನೋವಾ ಪಲಾವ್",
+  "mealPlanGrilledChicken": "ಮಲ್ಟಿಗ್ರೇನ್ ರೋಟಿಯೊಂದಿಗೆ ಗ್ರಿಲ್ಡ್ ಚಿಕನ್",
+  "mealPlanPalakPaneer": "ರೋಟಿ ಜೊತೆಗೆ ಪಾಲಕ್ ಪನೀರ್",
+  "mealPlanVegKhichdi": "ಮೊಸರಿನೊಂದಿಗೆ ತರಕಾರಿ ಖಿಚಡಿ",
+  "mealPlanGrilledFish": "ಹಬೆಯಲ್ಲಿ ಬೇಯಿಸಿದ ತರಕಾರಿಗಳೊಂದಿಗೆ ಗ್ರಿಲ್ಡ್ ಮೀನು",
+  "mealPlanMixedNuts": "ಮಿಶ್ರಿತ ಬೀಜಗಳು",
+  "mealPlanFruitSalad": "ಮೊಸರಿನೊಂದಿಗೆ ಹಣ್ಣಿನ ಸಲಾಡ್",
+  "mealPlanRoastedChickpeas": "ಹುರಿದ ಕಡಲೆ",
+  "mealPlanDiabetesSafe": "ಮಧುಮೇಹ-ಸುರಕ್ಷಿತ",
+  "mealPlanPCOSFriendly": "ಪಿಸಿಓಎಸ್-ಸ್ನೇಹಿ",
+  "mealPlanHeartHealthy": "ಹೃದಯಕ್ಕೆ ಆರೋಗ್ಯಕರ",
+  "mealPlanIronRich": "ಕಬ್ಬಿಣಾಂಶ ಸಮೃದ್ಧ",
+  "mealPlanHighProtein": "ಹೆಚ್ಚಿನ ಪ್ರೋಟೀನ್",
+  "mealPlanVitaminRich": "ವಿಟಮಿನ್ ಸಮೃದ್ಧ",
+  "mealPlanHighFiber": "ಹೆಚ್ಚಿನ ಫೈಬರ್",
+  "mealPlanOatsUpmaSummary": "ಕಡಿಮೆ ಗ್ಲೈಸೆಮಿಕ್ ಇಂಡೆಕ್ಸ್ ಉಪಹಾರವು ನಿಮ್ಮನ್ನು ದೀರ್ಘಕಾಲದವರೆಗೆ ಹಸಿವಾಗದಂತೆ ಇಡುತ್ತದೆ ಮತ್ತು ಸಕ್ಕರೆ ಮಟ್ಟ ಹೆಚ್ಚಾಗುವುದನ್ನು ತಡೆಯುತ್ತದೆ.",
+  "mealPlanOatsUpmaReason1": "ಓಟ್ಸ್ ಮತ್ತು ತರಕಾರಿಗಳಿಂದ ಹೆಚ್ಚಿನ ಫೈಬರ್",
+  "mealPlanOatsUpmaReason2": "ಗ್ಲೂಕೋಸ್ ನಿಧಾನಗತಿಯ ಹೀರುವಿಕೆ",
+  "mealPlanOatsUpmaReason3": "ಅಗತ್ಯ ಖನಿಜಗಳಿಂದ ಸಮೃದ್ಧವಾಗಿದೆ",
+  "mealPlanBrownRiceSummary": "ಸಂಕೀರ್ಣ ಕಾರ್ಬ್ಸ್ ಮತ್ತು ಸಸ್ಯ ಆಧಾರಿತ ಪ್ರೋಟೀನ್ ಒದಗಿಸುವ ಸಮತೋಲಿತ ಊಟ.",
+  "mealPlanBrownRiceReason1": "ತೃಪ್ತಿಗಾಗಿ ಪ್ರೋಟೀನ್ ಯುಕ್ತ ಬೇಳೆ",
+  "mealPlanBrownRiceReason2": "ಬ್ರೌನ್ ರೈಸ್ ಮತ್ತು ಸಲಾಡ್‌ನಿಂದ ಫೈಬರ್",
+  "mealPlanBrownRiceReason3": "ಸಂಪೂರ್ಣ ಅಮೈನೋ ಆಸಿಡ್ ಪ್ರೊಫೈಲ್",
+  "mealPlanRoastedMakhanaSummary": "ಆಂಟಿಆಕ್ಸಿಡೆಂಟ್‌ಗಳಿಂದ ಸಮೃದ್ಧವಾಗಿರುವ ಹಗುರವಾದ, ಉರಿಯೂತ ನಿವಾರಕ ತಿಂಡಿ.",
+  "mealPlanRoastedMakhanaReason1": "ಗ್ರೀನ್ ಟೀ ಇಂದ ಆಂಟಿಆಕ್ಸಿಡೆಂಟ್‌ಗಳು",
+  "mealPlanRoastedMakhanaReason2": "ಕಡಿಮೆ ಕ್ಯಾಲೋರಿ ಸಾಂದ್ರತೆ",
+  "mealPlanRoastedMakhanaReason3": "ಮಖಾನಾದಿಂದ ಮ್ಯಾಂಗನೀಸ್ ಮತ್ತು ಪ್ರೋಟೀನ್",
+  "mealPlanPalakPaneerSummary": "ಸ್ನಾಯುಗಳ ದುರಸ್ತಿ ಮತ್ತು ಹಾರ್ಮೋನುಗಳ ಆರೋಗ್ಯವನ್ನು ಬೆಂಬಲಿಸುವ ಪ್ರೋಟೀನ್ ಮತ್ತು ಕಬ್ಬಿಣಾಂಶ ಭರಿತ ರಾತ್ರಿಯ ಊಟ.",
+  "mealPlanPalakPaneerReason1": "ಪಾಲಕ್‌ನಿಂದ ಕಬ್ಬಿಣಾಂಶ",
+  "mealPlanPalakPaneerReason2": "ಪನೀರ್‌ನಿಂದ ಪ್ರೋಟೀನ್",
+  "mealPlanPalakPaneerReason3": "ಮೊಸರಿನಿಂದ ಪ್ರೋಬಯಾಟಿಕ್‌ಗಳು",
+  "mealPlanOatsUpmaExpl": "ಹೆಚ್ಚಿನ ಫೈಬರ್ ಅಂಶವು ರಕ್ತದ ಸಕ್ಕರೆಯ ಮಟ್ಟವನ್ನು ನಿಯಂತ್ರಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ",
+  "mealPlanMoongDalExpl": "ಪ್ರೋಟೀನ್-ಭರಿತ ಹೆಸರು ಬೇಳೆ ಹಾರ್ಮೋನ್ ಸಮತೋಲನವನ್ನು ಬೆಂಬಲಿಸುತ್ತದೆ",
+  "mealPlanRagiDosaExpl": "ರಾಗಿ ಒಟ್ಟಾರೆ ಕ್ಷೇಮಕ್ಕಾಗಿ ಕ್ಯಾಲ್ಸಿಯಂ ಮತ್ತು ಕಬ್ಬಿಣವನ್ನು ಒದಗಿಸುತ್ತದೆ",
+  "mealPlanBrownRiceExpl": "ಬ್ರೌನ್ ರೈಸ್ ಕಡಿಮೆ ಗ್ಲೈಸೆಮಿಕ್ ಸೂಚ್ಯಂಕವನ್ನು ಹೊಂದಿದೆ, ರಕ್ತದ ಸಕ್ಕರೆಯ ನಿಯಂತ್ರಣಕ್ಕೆ ಸೂಕ್ತವಾಗಿದೆ",
+  "mealPlanQuinoaExpl": "ಕ್ವಿನೋವಾ ಚಯಾಪಚಯ ಆರೋಗ್ಯವನ್ನು ಬೆಂಬಲಿಸುವ ಸಂಪೂರ್ಣ ಪ್ರೋಟೀನ್ ಮೂಲವಾಗಿದೆ",
+  "mealPlanGrilledChickenExpl": "ನೇರ ಪ್ರೋಟೀನ್ ಸ್ನಾಯುಗಳ ಆರೋಗ್ಯವನ್ನು ಬೆಂಬಲಿಸುತ್ತದೆ ಮತ್ತು ನಿಮಗೆ ತೃಪ್ತಿ ನೀಡುತ್ತದೆ",
+  "mealPlanPalakPaneerExpl": "ಪಾಲಕ್ ಮೂಳೆಯ ಆರೋಗ್ಯಕ್ಕಾಗಿ ಕಬ್ಬಿಣ ಮತ್ತು ಕ್ಯಾಲ್ಸಿಯಂ ಅನ್ನು ಒದಗಿಸುತ್ತದೆ",
+  "mealPlanVegKhichdiExpl": "ಜೀರ್ಣಿಸಿಕೊಳ್ಳಲು ಸುಲಭ, ರಾತ್ರಿಯ ಊಟಕ್ಕೆ ಸೂಕ್ತವಾದ ಸಮತೋಲಿತ ಊಟ",
+  "mealPlanGrilledFishExpl": "ಒಮೆಗಾ -3 ಕೊಬ್ಬಿನಾಮ್ಲಗಳು ಹೃದಯರಕ್ತನಾಳದ ಆರೋಗ್ಯವನ್ನು ಬೆಂಬಲಿಸುತ್ತವೆ",
+  "mealPlanMixedNutsExpl": "ನಿರಂತರ ಶಕ್ತಿಗಾಗಿ ಆರೋಗ್ಯಕರ ಕೊಬ್ಬುಗಳು ಮತ್ತು ಪ್ರೋಟೀನ್",
+  "mealPlanFruitSaladExpl": "ತಾಜಾ ಹಣ್ಣುಗಳು ಉತ್ಕರ್ಷಣ ನಿರೋಧಕಗಳು ಮತ್ತು ನೈಸರ್ಗಿಕ ಮಾಧುರ್ಯವನ್ನು ನೀಡುತ್ತವೆ",
+  "mealPlanRoastedChickpeasExpl": "ಫೈಬರ್ ಭರಿತ ತಿಂಡಿ ಊಟಗಳ ನಡುವೆ ಹಸಿವಾಗದಂತೆ ತಡೆಯುತ್ತದೆ",
+  "insightsTitle": "ಆರೋಗ್ಯ ಒಳನೋಟಗಳು",
+  "insightsRefreshTooltip": "ಒಳನೋಟಗಳನ್ನು ನವೀಕರಿಸಿ",
+  "insightsYourHealthScore": "ನಿಮ್ಮ ಆರೋಗ್ಯ ಸ್ಕೋರ್",
+  "insightsWeeklyChange": "ಈ ವಾರ {value} ಅಂಕಗಳು",
+  "@insightsWeeklyChange": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "insightsHealthConditions": "ಆರೋಗ್ಯ ಸ್ಥಿತಿಗಳು",
+  "insightsNutrientBalance": "ಪೋಷಕಾಂಶಗಳ ಸಮತೋಲನ",
+  "insightsWeeklyTrends": "ಸಾಪ್ತಾಹಿಕ ಪ್ರವೃತ್ತಿಗಳು",
+  "insightsPersonalizedInsights": "ವೈಯಕ್ತಿಕ ಒಳನೋಟಗಳು",
+  "insightsRecommendations": "ಶಿಫಾರಸುಗಳು",
+  "insightsDietAdherence": "ಆಹಾರದ ಪಾಲನೆ",
+  "insightsNutrientTracking": "ದೈನಂದಿನ ಪೋಷಕಾಂಶಗಳ ಟ್ರ್ಯಾಕಿಂಗ್",
+  "insightsStatusWithinRange": "ಮಿತಿಯಲ್ಲಿದೆ",
+  "insightsStatusBorderline": "ಗಡಿರೇಖೆಯಲ್ಲಿದೆ",
+  "insightsStatusNeedsImprovement": "ಸುಧಾರಣೆ ಅಗತ್ಯವಿದೆ",
+  "insightsStatusStable": "ಸ್ಥಿರವಾಗಿದೆ",
+  "insightsStatusImproving": "ಸುಧಾರಿಸುತ್ತಿದೆ",
+  "insightsStatusNeedsAttention": "ಗಮನ ಹರಿಸಬೇಕಿದೆ",
+  "insightsTrendImproving": "ಸುಧಾರಿಸುತ್ತಿದೆ",
+  "insightsTrendDeclining": "ಕುಸಿಯುತ್ತಿದೆ",
+  "insights7DayTrends": "7-ದಿನಗಳ ಪ್ರವೃತ್ತಿಗಳು",
+  "insightsTabAdherence": "ಪಾಲನೆ",
+  "insightsTabCalories": "ಕ್ಯಾಲೋರಿಗಳು",
+  "insightsTabBudget": "ಬಜೆಟ್",
+  "insightsNoData": "ಯಾವುದೇ ಮಾಹಿತಿಯಿಲ್ಲ",
+  "insightsDefaultTitle": "ಒಳನೋಟ",
+  "insightsActionable": "ಕಾರ್ಯಗತಗೊಳಿಸಬಹುದಾದ",
+  "insightsDefaultRecommendation": "ಶಿಫಾರಸು",
+  "mockInsightConsistentTimingTitle": "ಸ್ಥಿರವಾದ ಭೋಜನದ ಸಮಯ",
+  "mockInsightConsistentTimingDesc": "ನೀವು 6 ದಿನಗಳವರೆಗೆ ನಿಯಮಿತ ಭೋಜನದ ಸಮಯವನ್ನು ನಿರ್ವಹಿಸಿದ್ದೀರಿ. ಇದು ರಕ್ತದ ಸಕ್ಕರೆಯ ಮಟ್ಟವನ್ನು ಸ್ಥಿರಗೊಳಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ.",
+  "mockInsightFiberLowTitle": "ನಾರಿನಂಶದ ಸೇವನೆ ಗುರಿಗಿಂತ ಕಡಿಮೆ",
+  "mockInsightFiberLowDesc": "ನಿಮ್ಮ ನಾರಿನಂಶದ ಸೇವನೆಯು ಗುರಿಯ ಶೇಕಡಾ 73 ರಷ್ಟಿದೆ. ಹೆಚ್ಚಿನ ತರಕಾರಿ ಮತ್ತು ಧಾನ್ಯಗಳನ್ನು ಸೇರಿಸಲು ಪರಿಗಣಿಸಿ.",
+  "mockInsightBudgetOptTitle": "ಬಜೆಟ್ ಆಪ್ಟಿಮೈಸೇಶನ್",
+  "mockInsightBudgetOptDesc": "ಪೌಷ್ಟಿಕಾಂಶದ ಗುರಿಗಳನ್ನು ಸಾಧಿಸುವಾಗ ನೀವು ಬಜೆಟ್‌ನಲ್ಲಿದ್ದೀರಿ. ಉತ್ತಮ ಸಮತೋಲನ!",
+  "mockInsightSugarHighTitle": "ಸಕ್ಕರೆ ಸೇವನೆ ಹೆಚ್ಚಾಗಿದೆ",
+  "mockInsightSugarHighDesc": "ದೈನಂದಿನ ಸಕ್ಕರೆ ಸೇವನೆಯು ಗುರಿಗಿಂತ ಶೇಕಡಾ 29 ರಷ್ಟು ಹೆಚ್ಚಿದೆ. ಸಿಹಿ ಪಾನೀಯಗಳು ಮತ್ತು ಸಿಹಿತಿಂಡಿಗಳನ್ನು ಕಡಿಮೆ ಮಾಡಲು ಪ್ರಯತ್ನಿಸಿ.",
+  "mockRecFiberIncreaseTitle": "ನಾರಿನಂಶದ ಸೇವನೆ ಹೆಚ್ಚಿಸಿ",
+  "mockRecFiberIncreaseDesc": "ಮಧ್ಯಾಹ್ನ ಮತ್ತು ರಾತ್ರಿಯ ಊಟಕ್ಕೆ 1 ಕಪ್ ಮಿಶ್ರ ತರಕಾರಿಗಳನ್ನು ಸೇರಿಸಿ. ಬಿಳಿ ಅನ್ನದ ಬದಲು ಕೆಂಪು ಅನ್ನವನ್ನು ಬಳಸಲು ಪ್ರಯತ್ನಿಸಿ.",
+  "mockRecSugarReduceTitle": "ಹೆಚ್ಚುವರಿ ಸಕ್ಕರೆಯನ್ನು ಕಡಿಮೆ ಮಾಡಿ",
+  "mockRecSugarReduceDesc": "ಸಿಹಿ ಪಾನೀಯಗಳ ಬದಲು ಗಿಡಮೂಲಿಕೆ ಚಹಾ ಅಥವಾ ಹಣ್ಣಿನ ರಸ ಮಿಶ್ರಿತ ನೀರನ್ನು ಕುಡಿಯಿರಿ. ಹಣ್ಣಿನ ರಸಗಳ ಬದಲು ತಾಜಾ ಹಣ್ಣುಗಳನ್ನು ಆರಿಸಿ.",
+  "mockRecProteinMaintainTitle": "ಪ್ರಸ್ತುತ ಪ್ರೊಟೀನ್ ಮಟ್ಟವನ್ನು ಕಾಪಾಡಿಕೊಳ್ಳಿ",
+  "mockRecProteinMaintainDesc": "ನಿಮ್ಮ ಪ್ರೊಟೀನ್ ಸೇವನೆ ಅತ್ಯುತ್ತಮವಾಗಿದೆ. ನಿಮ್ಮ ಊಟದಲ್ಲಿ ಬೇಳೆಕಾಳುಗಳು, ಪನೀರ್ ಮತ್ತು ಮೊಟ್ಟೆಗಳನ್ನು ಸೇರಿಸುವುದನ್ನು ಮುಂದುವರಿಸಿ.",
+  "mockRecHydrateTitle": "ಹೈಡ್ರೀಕರಿಸಿದ ಸ್ಥಿತಿಯಲ್ಲಿರಿ",
+  "mockRecHydrateDesc": "ಚಯಾಪಯ ಮತ್ತು ಪೋಷಕಾಂಶಗಳ ಹೀರಿಕೊಳ್ಳುವಿಕೆಯನ್ನು ಬೆಂಬಲಿಸಲು ಪ್ರತಿದಿನ 8-10 ಲೋಟ ನೀರು ಕುಡಿಯುವ ಗುರಿಯನ್ನು ಹೊಂದಿರಿ.",
+  "adaptivePlanActive": "ಅಡಾಪ್ಟಿವ್ ಪ್ಲಾನ್ ಸಕ್ರಿಯವಾಗಿದೆ",
+  "adaptivePersonalized": "ವೈಯಕ್ತಿಕಗೊಳಿಸಿದ",
+  "adaptiveAdjustedDesc": "ನಿಮ್ಮ ಆಹಾರ ಪದ್ಧತಿಯ ಆಧಾರದ ಮೇಲೆ ನಿಮ್ಮ ಯೋಜನೆಯನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಸರಿಹೊಂದಿಸಲಾಗಿದೆ:",
+  "adaptivePortionsOptimized": "ನಿಮ್ಮ ಸೇವನೆಯ ಅಭ್ಯಾಸಗಳಿಗಾಗಿ ಉತ್ತಮಗೊಳಿಸಿದ ಪ್ರಮಾಣಗಳು",
+  "adaptiveMealsReplaced": "ನಿಮ್ಮ ಆದ್ಯತೆಗಳ ಆಧಾರದ ಮೇಲೆ ಊಟಗಳನ್ನು ಬದಲಾಯಿಸಲಾಗಿದೆ",
+  "adaptiveNutrientsRebalanced": "ಉತ್ತಮ ಆರೋಗ್ಯಕ್ಕಾಗಿ ಪೋಷಕಾಂಶಗಳನ್ನು ಮರುಸಮತೋಲನಗೊಳಿಸಲಾಗಿದೆ",
+  "mockConditionDiabetes": "ಟೈಪ್ 2 ಡಯಾಬಿಟಿಸ್",
+  "mockConditionPCOS": "ಪಿಸಿಓಎಸ್",
+  "mockConditionHypertension": "ಅಧಿಕ ರಕ್ತದೊತ್ತಡ",
+  "mealPlanCalories": "ಕ್ಯಾಲೋರಿಗಳು",
+  "mealPlanProtein": "ಪ್ರೋಟೀನ್",
+  "mealPlanFiber": "ಫೈಬರ್",
+  "mealPlanSugar": "ಸಕ್ಕರೆ",
+  "mealPlanSodium": "ಸೋಡಿಯಂ",
+  "pantryTitle": "ಪ್ಯಾಂಟ್ರಿ ನಿರ್ವಹಣೆ",
+  "pantryRefreshTooltip": "ಪ್ಯಾಂಟ್ರಿ ನವೀಕರಿಸಿ",
+  "pantrySearchHint": "ಪದಾರ್ಥಗಳನ್ನು ಹುಡುಕಿ...",
+  "pantryTabInventory": "ದಾಸ್ತಾನು",
+  "pantryTabSuggestions": "ಊಟದ ಸಲಹೆಗಳು",
+  "pantryFabAddItem": "ಐಟಂ ಸೇರಿಸಿ",
+  "pantryEmptyNoItems": "ಪ್ಯಾಂಟ್ರಿಯಲ್ಲಿ ಯಾವುದೇ ಐಟಂಗಳಿಲ್ಲ",
+  "pantryEmptyNoResults": "ಯಾವುದೇ ಫಲಿತಾಂಶಗಳು ಕಂಡುಬಂದಿಲ್ಲ",
+  "pantryEmptyMessageNoItems": "ನಿಮ್ಮ ಪ್ಯಾಂಟ್ರಿ ದಾಸ್ತಾನು ಟ್ರ್ಯಾಕ್ ಮಾಡಲು ಪದಾರ್ಥಗಳನ್ನು ಸೇರಿಸಲು ಪ್ರಾರಂಭಿಸಿ",
+  "pantryEmptyMessageNoResults": "ವಿಭಿನ್ನ ಕೀವರ್ಡ್‌ಗಳೊಂದಿಗೆ ಹುಡುಕಲು ಪ್ರಯತ್ನಿಸಿ",
+  "pantrySummaryTotal": "ಒಟ್ಟು ಐಟಂಗಳು",
+  "pantrySummaryFresh": "ತಾಜಾ",
+  "pantrySummaryExpiring": "ಬಾಕಿ ಇದೆ",
+  "pantrySummaryExpired": "ಮುಕ್ತಾಯವಾಗಿದೆ",
+  "pantrySuggestionsTitle": "ಸ್ಮಾರ್ಟ್ ಊಟದ ಸಲಹೆಗಳು",
+  "pantrySuggestionsSubtitle": "ನಿಮ್ಮ ಲಭ್ಯವಿರುವ ಪ್ಯಾಂಟ್ರಿ ದಾಸ್ತಾನು ಆಧಾರಿತ",
+  "pantryEmptyNoSuggestions": "ಯಾವುದೇ ಊಟದ ಸಲಹೆಗಳಿಲ್ಲ",
+  "pantryEmptyMessageNoSuggestions": "ವೈಯಕ್ತಿಕಗೊಳಿಸಿದ ಊಟದ ಸಲಹೆಗಳನ್ನು ಪಡೆಯಲು ಹೆಚ್ಚಿನ ಪದಾರ್ಥಗಳನ್ನು ಸೇರಿಸಿ",
+  "pantrySnackAddedToList": "{itemName} ಅನ್ನು ಗ್ರಾಸರಿ ಪಟ್ಟಿಗೆ ಸೇರಿಸಲಾಗಿದೆ",
+  "@pantrySnackAddedToList": {
+    "placeholders": {
+      "itemName": { "type": "String" }
+    }
+  },
+  "pantrySnackMarkedUsed": "{itemName} ಅನ್ನು ಬಳಸಲಾಗಿದೆ ಎಂದು ಗುರುತಿಸಲಾಗಿದೆ",
+  "@pantrySnackMarkedUsed": {
+    "placeholders": {
+      "itemName": { "type": "String" }
+    }
+  },
+  "pantrySnackAddedToPantry": "{itemName} ಅನ್ನು ಪ್ಯಾಂಟ್ರಿಗೆ ಸೇರಿಸಲಾಗಿದೆ",
+  "@pantrySnackAddedToPantry": {
+    "placeholders": {
+      "itemName": { "type": "String" }
+    }
+  },
+  "pantryDialogAddTitle": "ಪ್ಯಾಂಟ್ರಿ ಐಟಂ ಸೇರಿಸಿ",
+  "pantryDialogItemNameLabel": "ಐಟಂ ಹೆಸರು *",
+  "pantryDialogItemNameHint": "ಉದಾ, ಟೊಮೆಟೊ",
+  "pantryDialogCategoryLabel": "ವರ್ಗ *",
+  "pantryDialogQuantityLabel": "ಪ್ರಮಾಣ *",
+  "pantryDialogQuantityHint": "0.0",
+  "pantryDialogUnitLabel": "ಘಟಕ *",
+  "pantryDialogExpiryDateLabel": "ಮುಕ್ತಾಯ ದಿನಾಂಕ *",
+  "pantryDialogErrorFields": "ದಯವಿಟ್ಟು ಎಲ್ಲಾ ಅಗತ್ಯ ಕ್ಷೇತ್ರಗಳನ್ನು ಭರ್ತಿ ಮಾಡಿ",
+  "pantryDialogCancel": "ರದ್ದುಮಾಡಿ",
+  "pantryDialogConfirmAdd": "ಐಟಂ ಸೇರಿಸಿ",
+  "pantryCategoryVegetables": "ತರಕಾರಿಗಳು",
+  "pantryCategoryGrains": "ಧಾನ್ಯಗಳು",
+  "pantryCategorySpices": "ಮಸಾಲೆಗಳು",
+  "pantryCategoryDairy": "ಡೈರಿ",
+  "pantryCategoryProteins": "ಪ್ರೋಟೀನ್‌ಗಳು",
+  "pantryCategoryOther": "ಇತರೆ",
+  "unitKg": "ಕೆಜಿ",
+  "unitG": "ಗ್ರಾಂ",
+  "unitL": "ಲೀಟರ್",
+  "unitMl": "ಮಿಲಿ",
+  "unitPcs": "ಪೀಸ್",
+  "pantryStatusFresh": "ತಾಜಾ",
+  "pantryStatusExpiringSoon": "ಶೀಘ್ರದಲ್ಲೇ ಮುಕ್ತಾಯವಾಗಲಿದೆ",
+  "pantryStatusExpired": "ಮುಕ್ತಾಯವಾಗಿದೆ",
+  "pantryStatusUnknown": "ಅಜ್ಞಾತ",
+  "pantryMealCal": "{value} ಕ್ಯಾಲೊರಿ",
+  "@pantryMealCal": {
+    "placeholders": {
+      "value": { "type": "String" }
+    }
+  },
+  "pantryMealAvailablePercent": "{value}% ಲಭ್ಯವಿದೆ",
+  "@pantryMealAvailablePercent": {
+    "placeholders": {
+      "value": { "type": "int" }
+    }
+  },
+  "pantryMealRequiredIngredients": "ಅಗತ್ಯ ಪದಾರ್ಥಗಳು",
+  "pantryMealInPantry": "ಪ್ಯಾಂಟ್ರಿಯಲ್ಲಿದೆ",
+  "pantryMealMissingIngredients": "ಕಾಣೆಯಾದ ಪದಾರ್ಥಗಳು",
+  "pantryMealEstimatedCost": "ಅಂದಾಜು ವೆಚ್ಚ: ₹{value}",
+  "@pantryMealEstimatedCost": {
+    "placeholders": {
+      "value": { "type": "String" }
+    }
+  },
+  "pantryMealReadyToCook": "ಎಲ್ಲಾ ಪದಾರ್ಥಗಳು ಲಭ್ಯವಿದೆ! ಅಡುಗೆ ಮಾಡಲು ಸಿದ್ಧ.",
+  "pantryMealAddedMissingToGrocery": "ಕಾಣೆಯಾದ ಪದಾರ್ಥಗಳನ್ನು ಗ್ರಾಸರಿ ಪಟ್ಟಿಗೆ ಸೇರಿಸಲಾಗಿದೆ",
+  "pantryMealStartCooking": "ಅಡುಗೆ ಪ್ರಾರಂಭಿಸಿ",
+  "pantryMealAddMissingItems": "ಕಾಣೆಯಾದ ವಸ್ತುಗಳನ್ನು ಗ್ರಾಸರಿ ಪಟ್ಟಿಗೆ ಸೇರಿಸಿ",
+  "pantryMealMissingLabel": "ಕಾಣೆಯಾಗಿದೆ: {value}",
+  "@pantryMealMissingLabel": {
+    "placeholders": {
+      "value": { "type": "String" }
+    }
+  },
+  "pantryMealAllAvailable": "ಎಲ್ಲಾ ಪದಾರ್ಥಗಳು ಲಭ್ಯವಿದೆ!",
+  "pantryMealTapToView": "ವಿವರಗಳನ್ನು ನೋಡಲು ಟ್ಯಾಪ್ ಮಾಡಿ",
+  "pantryDetailsStock": "ಪ್ರಸ್ತುತ ದಾಸ್ತಾನು",
+  "pantryDetailsDaysLeft": "ದಿನಗಳು ಬಾಕಿ",
+  "pantryDetailsDaysRange": "{value} ದಿನಗಳು",
+  "@pantryDetailsDaysRange": {
+    "placeholders": {
+      "value": { "type": "int" }
+    }
+  },
+  "pantryDetailsPurchaseDate": "ಖರೀದಿಸಿದ ದಿನಾಂಕ",
+  "pantryDetailsExpiryDate": "ಮುಕ್ತಾಯ ದಿನಾಂಕ",
+  "pantryDetailsStockLevel": "ದಾಸ್ತಾನು ಮಟ್ಟ",
+  "pantryDetailsNoUsage": "ಇನ್ನೂ ಯಾವುದೇ ಬಳಕೆಯನ್ನು ದಾಖಲಿಸಿಲ್ಲ",
+  "pantryDetailsUsageHistory": "ಬಳಕೆಯ ಇತಿಹಾಸ",
+  "pantryDetailsMarkUsedTitle": "{itemName} ಅನ್ನು ಬಳಸಲಾಗಿದೆ ಎಂದು ಗುರುತಿಸಿ",
+  "@pantryDetailsMarkUsedTitle": {
+    "placeholders": {
+      "itemName": { "type": "String" }
+    }
+  },
+  "pantryDetailsSelectPortion": "ಬಳಸಿದ ಭಾಗವನ್ನು ಆಯ್ಕೆಮಾಡಿ:",
+  "pantryDetailsConfirm": "ದೃಢೀಕರಿಸಿ",
+  "pantryDetailsAddToList": "ಪಟ್ಟಿಗೆ ಸೇರಿಸಿ",
+  "pantryDetailsMarkUsed": "ಬಳಸಲಾಗಿದೆ ಎಂದು ಗುರುತಿಸಿ",
+  "pantryDetailsExpiresLabel": "ಮುಕ್ತಾಯವಾಗುತ್ತದೆ: {date} ({days} ದಿನಗಳು)",
+  "mockIngredientCapsicum": "ಕ್ಯಾಪ್ಸಿಕಂ",
+  "mockIngredientMixedVeg": "ಮಿಶ್ರ ತರಕಾರಿಗಳು",
+  "mockIngredientDalia": "ದಲಿಯಾ (ನುಚ್ಚು ಗೋಧಿ)",
+  "mockMealVegPulao": "ವೆಜಿಟೇಬಲ್ ಪಲಾವ್",
+  "mockMealPaneerTikka": "ಪನೀರ್ ಟಿಕ್ಕಾ",
+  "mockMealDaliaKhichdi": "ದಲಿಯಾ ಖಿಚಡಿ",
+  "mockIngredientOnions": "ಈರುಳ್ಳಿ",
+  "mockIngredientTomatoes": "ಟೊಮೆಟೊ",
+  "mockIngredientSpinach": "ಪಾಲಕ್ ಸೊಪ್ಪು",
+  "mockIngredientCarrots": "ಕ್ಯಾರೆಟ್",
+  "mockIngredientBasmatiRice": "ಬಾಸ್ಮತಿ ಅಕ್ಕಿ",
+  "mockIngredientWheatFlour": "ಗೋಧಿ ಹಿಟ್ಟು",
+  "mockIngredientMoongDal": "ಹೆಸರು ಬೇಳೆ",
+  "mockIngredientTurmeric": "ಅರಿಶಿನ ಪುಡಿ",
+  "mockIngredientCumin": "ಜೀರಿಗೆ",
+  "mockIngredientGaramMasala": "ಗರಂ ಮಸಾಲ",
+  "mockIngredientMilk": "ಹಾಲು",
+  "mockIngredientYogurt": "ಮೊಸರು",
+  "mockIngredientPaneer": "ಪನೀರ್",
+  "mockIngredientChicken": "ಚಿಕನ್ ಬ್ರೆಸ್ಟ್",
+  "mockIngredientEggs": "ಮೊಟ್ಟೆಗಳು",
+  "mockIngredientGreenPeas": "ಹಸಿ ಬಟಾಣಿ",
+  "mockIngredientCream": "ಕ್ರೀಮ್",
+  "mockIngredientButter": "ಬೆಣ್ಣೆ",
+  "mockIngredientCoconutMilk": "ತೆಂಗಿನ ಹಾಲು",
+  "mockIngredientGarlic": "ಬೆಳ್ಳುಳ್ಳಿ",
+  "mockMealDalTadka": "ದಾಲ್ ತಡ್ಕಾ",
+  "mockMealPaneerButterMasala": "ಪನೀರ್ ಬಟರ್ ಮಸಾಲ",
+  "mockMealEggCurry": "ಎಗ್ ಕರಿ",
+  "mealPlanRoastedMakhana": "ಹುರಿದ ಮಖಾನಾ ಮತ್ತು ಗ್ರೀನ್ ಟೀ",
+  "mealPlanRotiPalakPaneer": "ರೋಟಿ, ಪಾಲಕ್ ಪನೀರ್ ಮತ್ತು ಸೌತೆಕಾಯಿ ರೈತ",
+  
+  "mockMealIdliSambar": "ಇಡ್ಲಿ ಮತ್ತು ಸಾಂಬಾರ್",
+  "mockMealDosaChutney": "ದೋಸೆ ಮತ್ತು ತೆಂಗಿನ ಚಟ್ನಿ",
+  "mockMealVegetableUpma": "ತರಕಾರಿ ಉಪ್ಪಿಟ್ಟು",
+  "mockMealLemonRice": "ನಿಂಬೆ ಅನ್ನ",
+  "mockMealCurdRice": "ಮೊಸರು ಅನ್ನ",
+  "mockMealRagiMudde": "ರಾಗಿ ಮುದ್ದೆ ಮತ್ತು ಸಾರು",
+  "mockMealRotiDalTadka": "ರೋಟಿ ಮತ್ತು ದಾಲ್ ತಡ್ಕಾ",
+  "mockMealRajmaChawal": "ರಾಜ್ಮಾ ಚಾವಲ್",
+  "mockMealVegetableKhichdi": "ತರಕಾರಿ ಖಿಚಡಿ",
+  "mockMealCholeRice": "ಛೋಲೆ ಮತ್ತು ಅನ್ನ",
+  "mockMealPaneerBhurji": "ಪನೀರ್ ಭುರ್ಜಿ ಮತ್ತು ರೋಟಿ",
+  
+  "@pantryDetailsExpiresLabel": {
+    "placeholders": {
+      "date": { "type": "String" },
+      "days": { "type": "int" }
+    }
+  }
+}

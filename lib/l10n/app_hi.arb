@@ -1,0 +1,873 @@
+{
+  "@@locale": "hi",
+
+  "appName": "NutriCart",
+
+  "dashboardGreeting": "नमस्ते {userName} 👋",
+  "@dashboardGreeting": {
+    "placeholders": {
+      "userName": {
+        "type": "String"
+      }
+    }
+  },
+  "dashboardHighlightTitle": "आज आपका ट्रैक बहुत अच्छा है!",
+  "dashboardHighlightSubtitle": "आपके बजट के अनुसार भोजन समायोजित किए गए हैं",
+  "dashboardQuickActionsTitle": "त्वरित विकल्प",
+  "dashboardQuickActionMealPlanTitle": "मी़ल प्लान",
+  "dashboardQuickActionMealPlanSubtitle": "आज के भोजन देखें",
+  "dashboardQuickActionGroceryTitle": "किराना",
+  "dashboardQuickActionGrocerySubtitle": "खरीदारी सूची",
+  "dashboardQuickActionBudgetTitle": "बजट ट्रैकर",
+  "dashboardQuickActionBudgetSubtitle": "अपने खर्च पर नज़र रखें",
+  "dashboardQuickActionPantryTitle": "पेंट्री मैनेजमेंट",
+  "dashboardQuickActionPantrySubtitle": "सामग्री को ट्रैक करें",
+  "dashboardQuickActionReengineeringTitle": "मील री-इंजीनियरिंग",
+  "dashboardQuickActionReengineeringSubtitle": "स्मार्ट भोजन बदलाव देखें",
+  "dashboardQuickActionInsightsTitle": "स्वास्थ्य इनसाइट्स",
+  "dashboardQuickActionInsightsSubtitle": "अपनी स्वास्थ्य प्रगति ट्रैक करें",
+  "dashboardWhyTheseMealsTitle": "ये भोजन क्यों?",
+  "dashboardPantryAlertsTitle": "पेंट्री अलर्ट",
+  "dashboardOverviewTitle": "आज का भोजन",
+  "timeAM": "पूर्वाह्न",
+  "timePM": "अपराह्न",
+
+  "seasonalSectionTitle": "आपके आसपास के मौसमी विकल्प 🌾",
+  "seasonalSectionSubtitle": "फरवरी में बेंगलुरु बाज़ारों के आधार पर",
+  "seasonalButtonAddToGrocery": "किराना सूची में जोड़ें",
+  "seasonalSnackAddedToGrocery": "किराना सूची में जोड़ा गया",
+
+  "groceryTitle": "किराना सूची",
+  "grocerySearchHint": "सामग्री खोजें...",
+  "groceryEmptyTitle": "कोई आइटम नहीं मिला",
+  "groceryEmptyMessageDefault": "आपकी किराना सूची खाली है। मील प्लान से आइटम जोड़ें।",
+  "groceryEmptyMessageFiltered": "आपकी खोज से मेल खाने वाली सामग्री नहीं मिली।",
+  "groceryEmptyPrimary": "मील ब्राउज़ करें",
+  "groceryEmptyClearSearch": "खोज साफ़ करें",
+  "groceryFabAddItem": "आइटम जोड़ें",
+
+  "grocerySnackAddedToPantry": "पेंट्री में जोड़ा गया",
+  "grocerySnackRemovedFromList": "सूची से हटाया गया",
+  "grocerySnackOpeningWhatsApp": "WhatsApp खोला जा रहा है...",
+  "grocerySnackOpeningSms": "SMS खोला जा रहा है...",
+  "grocerySnackCopiedList": "सूची क्लिपबोर्ड पर कॉपी की गई",
+
+  "groceryShareTitle": "किराना सूची साझा करें",
+
+  "groceryShoppingProgressTitle": "खरीदारी प्रगति",
+  "groceryShoppingProgressLabel": "{completed} में से {total} आइटम",
+  "@groceryShoppingProgressLabel": {
+    "placeholders": {
+      "completed": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+
+  "deliverySectionTitle": "डिलीवरी इंटीग्रेशन",
+  "deliverySectionSubtitle": "अपने वर्तमान कार्ट के अनुसार डिलीवरी पार्टनर चुनें।",
+  "deliveryBigBasketTitle": "BigBasket",
+  "deliveryBigBasketSubtitle": "पूरे हफ्ते की खरीदारी के लिए बेहतर",
+  "deliveryBigBasketFee": "न्यूनतम ऑर्डर: ₹500 • डिलीवरी शुल्क: ₹49",
+  "deliveryBigBasketEta": "अनुमानित समय: 2–3 घंटे",
+  "deliveryBlinkitTitle": "Blinkit",
+  "deliveryBlinkitSubtitle": "तेज़ टॉप-अप और ज़रूरी सामान",
+  "deliveryBlinkitFee": "न्यूनतम ऑर्डर: ₹199 • डिलीवरी शुल्क: ₹0",
+  "deliveryBlinkitEta": "अनुमानित समय: 15–30 मिनट",
+  "deliveryDMartTitle": "DMart Ready",
+  "deliveryDMartSubtitle": "स्टोर पिकअप और डिलीवरी",
+  "deliveryDMartFee": "फिलहाल उपलब्ध नहीं",
+  "deliveryDMartEta": "अनुमानित समय: —",
+  "deliveryAvailableForCart": "आपके कार्ट के लिए उपलब्ध",
+  "deliveryMinOrderNotMet": "न्यूनतम ऑर्डर राशि पूरी नहीं हुई",
+  "deliveryUnavailable": "उपलब्ध नहीं",
+  "deliverySelectedLabel": "चुनी हुई डिलीवरी: {provider}",
+  "@deliverySelectedLabel": {
+    "placeholders": {
+      "provider": {
+        "type": "String"
+      }
+    }
+  },
+  "deliveryChipSelected": "चयनित",
+  "deliveryChipSelect": "चुनें",
+
+  "profileSetupTitle": "प्रोफाइल सेटअप",
+  "profileStepOfTotal": "कदम {current} / {total}",
+  "@profileStepOfTotal": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "profileStepPercent": "{percent}%",
+  "@profileStepPercent": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "profileContinue": "आगे बढ़ें",
+  "profileCompleteSetup": "सेटअप पूरा करें",
+
+  "languageSelectorTitle": "ऐप भाषा",
+  "languageSelectorSubtitle": "अपने NutriCart अनुभव के लिए भाषा चुनें",
+  "languageEnglish": "English",
+  "languageKannada": "कन्नड़",
+  "languageHindi": "हिन्दी",
+  "dashboardMealCompletedCount": "{total} में से {completed} भोजन",
+  "@dashboardMealCompletedCount": {
+    "placeholders": {
+      "completed": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "dashboardCalorieConsumed": "सेवन किया",
+  "dashboardCalorieRemaining": "शेष",
+  "dashboardCalorieValue": "{value} किलो कैलोरी",
+  "@dashboardCalorieValue": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "dashboardUrgencyHigh": "उच्च",
+  "dashboardUrgencyMedium": "मध्यम",
+  "dashboardUrgencyLow": "कम",
+  "dashboardWeeklyProgressTitle": "साप्ताहिक प्रगति",
+  "dashboardWeeklyProgressSubtitle": "पोषण अनुपालन ट्रैकिंग",
+  "dashboardWeeklyProgressSemantics": "दैनिक अनुपालन प्रतिशत दिखाते हुए साप्ताहिक पोषण अनुपालन बार चार्ट",
+  "dashboardLegendExcellent": "उत्कृष्ट",
+  "dashboardLegendGood": "अच्छा",
+  "dashboardLegendNeedsImprovement": "सुधार की आवश्यकता",
+  "dashboardLoading": "लोड हो रहा है...",
+  "dashboardOffline": "ऑफ़लाइन",
+  "groceryCategoryVegetables": "सब्जियां",
+  "groceryCategoryGrains": "अनाज",
+  "groceryCategorySpices": "मसाले",
+  "groceryCategoryDairy": "डेयरी",
+  "groceryBudgetSummaryTitle": "बजट सारांश",
+  "groceryWeeklyEstimate": "साप्ताहिक अनुमान",
+  "groceryMonthlyBudget": "मासिक बजट",
+  "grocerySpent": "खर्च किया",
+  "groceryRemaining": "शेष",
+  "groceryCurrency": "₹",
+  "groceryBudgetFriendlyTitle": "बजट-अनुकूल विकल्प",
+  "groceryBudgetExceedsMessage": "आपकी वर्तमान सूची बजट से {amount} अधिक है। इन विकल्पों पर विचार करें:",
+  "@groceryBudgetExceedsMessage": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "grocerySaveAmount": "{amount} बचाएं",
+  "@grocerySaveAmount": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "groceryTotal": "कुल: {amount}",
+  "@groceryTotal": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "groceryShareGeneratedBy": "{date} को {appName} द्वारा जनरेट किया गया",
+  "@groceryShareGeneratedBy": {
+    "placeholders": {
+      "appName": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "profilePersonalDetails": "व्यक्तिगत विवरण",
+  "profileHealthConditions": "स्वास्थ्य स्थितियाँ",
+  "profileDietaryPreferences": "आहार प्राथमिकताएं",
+  "profileAllergies": "एलर्जी",
+  "profileBudget": "बजट",
+  "profileBudgetTitle": "मासिक भोजन बजट",
+  "profileAge": "आयु",
+  "profileWeight": "वजन",
+  "profileGender": "लिंग",
+  "profileGenderMale": "पुरुष",
+  "profileGenderFemale": "महिला",
+  "profileHealthDiabetes": "मधुमेह",
+  "profileHealthPCOS": "पीसीओएस",
+  "profileHealthHypertension": "उच्च रक्तचाप",
+  "profileHbA1c": "HbA1c स्तर",
+  "profileDietVegetarian": "शाकाहारी",
+  "profileDietVegan": "वीगन",
+  "profileMonthlyBudgetLabel": "मासिक बजट दर्ज करें",
+  "profileUnitKg": "{value} किग्रा",
+  "@profileUnitKg": {
+    "placeholders": {
+      "value": {
+        "type": "double"
+      }
+    }
+  },
+  "profileUnitYears": "{value} वर्ष",
+  "@profileUnitYears": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "dashboardModalMarkComplete": "पूरा चिह्नित करें",
+  "dashboardModalSkipMeal": "भोजन छोड़ें",
+  "dashboardModalRequestAlternative": "विकल्प का अनुरोध करें",
+  "dashboardOverviewTitle": "आज का सारांश",
+  "profileUnitDays": "{value} दिन",
+  "@profileUnitDays": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "groceryBudgetOverview": "बजट सारांश",
+  "groceryUsedPercent": "{percent}% उपयोग किया गया",
+  "@groceryUsedPercent": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "groceryAvgDay": "औसत/दिन",
+  "groceryDaysLeftLabel": "दिन शेष",
+  "mockRecentMeal1Name": "दाल तड़का के साथ ब्राउन राइस",
+  "mockRecentMeal1Explanation": "प्रोटीन और फाइबर में उच्च, रक्त शर्करा के स्तर को प्रबंधित करने में मदद करता है। दाल PCOS प्रबंधन के लिए आवश्यक अमीनो एसिड प्रदान करती है।",
+  "mockRecentMeal1Timestamp": "2 घंटे पहले",
+  "mockRecentMeal2Name": "ओट्स उपमा",
+  "mockRecentMeal2Explanation": "कम ग्लाइसेमिक इंडेक्स वाला नाश्ता आपको लंबे समय तक भरा रखता है और शुगर स्पाइक्स को रोकता है। हृदय स्वास्थ्य के लिए बीटा-ग्लूकन से भरपूर।",
+  "mockRecentMeal2Timestamp": "5 घंटे पहले",
+  "mockSeasonalPick1Name": "सर्दियों के खट्टे फल",
+  "mockSeasonalPick1Type": "फल",
+  "mockSeasonalPick1Tag": "सर्दियों के खट्टे फल",
+  "mockSeasonalPick1Descriptor": "बैंगलोर के आसपास फरवरी में मौसमी",
+  "mockSeasonalPick2Name": "ताजा पालक",
+  "mockSeasonalPick2Type": "सब्जी",
+  "mockSeasonalPick2Tag": "सर्दियों की पत्तेदार सब्जी",
+  "mockSeasonalPick2Descriptor": "फरवरी में कोमल गुच्छे",
+  "seasonalFruit": "फल",
+  "seasonalVegetable": "सब्जी",
+  "seasonalTagPeakSeason": "चरम सीजन",
+  "seasonalDescriptorPeakFeb": "फरवरी के अंत में चरम उपलब्धता",
+  "seasonalTagLocallyAbundant": "स्थानीय रूप से प्रचुर मात्रा में",
+  "seasonalDescriptorCityMarkets": "शहर के बाजारों में निरंतर आपूर्ति",
+  "groceryWeeklyBudget": "साप्ताहिक बजट",
+  "groceryOverBudget": "बजट से बाहर",
+  "groceryEstimated": "अनुमानित",
+  "grocerySaveMore": "अधिक बचत करें",
+  "groceryPurchasedStatus": "{count}/{total} खरीदा गया",
+  "@groceryPurchasedStatus": {
+    "placeholders": {
+      "count": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "groceryEditQuantity": "मात्रा संपादित करें",
+  "groceryFindAlternatives": "विकल्प खोजें",
+  "groceryAddNotes": "नोट्स जोड़ें",
+  "groceryPantry": "पेंट्री",
+  "groceryRemove": "हटाएं",
+  "groceryAlternativesTitle": "{name} के लिए विकल्प",
+  "@groceryAlternativesTitle": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+  "groceryNoAlternatives": "कोई विकल्प उपलब्ध नहीं है",
+  "grocerySwitchedTo": "{name} पर स्विच किया गया",
+  "@grocerySwitchedTo": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+  "groceryClose": "बंद करें",
+  "groceryCategoryProduce": "उपज",
+  "groceryCategoryMeat": "मांस",
+  "groceryCategoryBakery": "बेकरी",
+  "groceryCategoryFrozen": "फ्रोजन",
+  "groceryCategoryBeverages": "पेय पदार्थ",
+  "mockGroceryOnions": "प्याज",
+  "mockGroceryTomatoes": "टमाटर",
+  "mockGroceryBasmatiRice": "बासमती चावल",
+  "mockGroceryWholeWheatFlour": "गेहूं का आटा",
+  "mockGroceryTurmericPowder": "हल्दी पाउडर",
+  "mockGroceryCuminSeeds": "जीरा",
+  "mockGroceryGaramMasala": "गरम मसाला",
+  "mockGroceryMilk": "दूध",
+  "mockGroceryYogurt": "दही",
+  "mockGroceryPaneer": "पनीर",
+  "profilePersonalSubtitle": "बुनियादी जानकारी के साथ अपने भोजन योजनाओं को निजीकृत करने में हमारी सहायता करें",
+  "profileAgeLabel": "आयु *",
+  "profileAgeHint": "अपनी आयु दर्ज करें",
+  "profileAgeRequired": "आयु आवश्यक है",
+  "profileAgeInvalid": "कृपया वैध आयु दर्ज करें (18-100)",
+  "profileGenderLabel": "लिंग *",
+  "profileGenderOther": "अन्य",
+  "profileWeightLabel": "वजन (किलोग्राम) *",
+  "profileWeightHint": "अपना वजन दर्ज करें",
+  "profileWeightRequired": "वजन आवश्यक है",
+  "profileWeightInvalid": "कृपया वैध वजन दर्ज करें (30-200 किलोग्राम)",
+  "profileWhyNeedInfo": "हमें यह जानकारी क्यों चाहिए?",
+  "profileUsageTitle": "व्यक्तिगत जानकारी का उपयोग",
+  "profileUsageAge": "आयु हमें आपकी दैनिक कैलोरी आवश्यकताओं और पोषण संबंधी आवश्यकताओं की गणना करने में मदद करती है",
+  "profileUsageGender": "लिंग चयापचय दर और विशिष्ट पोषक तत्वों की जरूरतों को प्रभावित करता है",
+  "profileUsageWeight": "हिस्सा नियंत्रण और व्यक्तिगत भोजन योजना के लिए वजन आवश्यक है",
+  "profileUsageSecurity": "सभी डेटा एन्क्रिप्टेड है और केवल आपके भोजन की सिफारिशों के लिए उपयोग किया जाता है",
+  "profileHealthSubtitle": "किसी भी स्वास्थ्य स्थिति का चयन करें जिसे आप प्रबंधित करते हैं (वैकल्पिक)",
+  "profileHealthDiabetesDesc": "टाइप 1 या टाइप 2 मधुमेह",
+  "profileHealthPCOSDesc": "पॉलीसिस्टिक ओवरी सिंड्रोम",
+  "profileHealthHypertensionDesc": "उच्च रक्तचाप",
+  "profileHealthAnemia": "एनीमिया",
+  "profileHealthAnemiaDesc": "आयरन की कमी",
+  "profileHealthThyroid": "थायराइड",
+  "profileHealthThyroidDesc": "थायराइड विकार",
+  "profileHealthHeart": "हृदय रोग",
+  "profileHealthHeartDesc": "हृदय संबंधी स्थितियां",
+  "profileHbA1cLabel": "HbA1c स्तर (वैकल्पिक)",
+  "profileHbA1cHint": "अपना HbA1c स्तर दर्ज करें (जैसे, 6.5)",
+  "profileHbA1cInfo": "यह हमें मधुमेह प्रबंधन के लिए अधिक सटीक भोजन अनुशंसाएं प्रदान करने में मदद करता है",
+  "profileSafetyTitle": "चिकित्सा पोषण सुरक्षा",
+  "profileSafetyCondition": "स्वास्थ्य स्थितियां आपकी पोषण संबंधी आवश्यकताओं और भोजन प्रतिबंधों को प्रभावित करती हैं",
+  "profileSafetyCompliance": "हम सुनिश्चित करते हैं कि भोजन योजनाएं चिकित्सा पोषण दिशानिर्देशों का अनुपालन करती हैं",
+  "profileSafetyPrevention": "उन खाद्य पदार्थों को सुझाने से रोकता है जो आपकी स्थिति को खराब कर सकते हैं",
+  "profileSafetyBalance": "आपकी स्वास्थ्य आवश्यकताओं के लिए विशिष्ट पोषक तत्वों को संतुलित करने में मदद करता है",
+  "profileSafetyGuidelines": "सभी सिफारिशें जीवनशैली रोगों के लिए भारतीय आहार दिशानिर्देशों का पालन करती हैं",
+  "profileDietSubtitle": "अपनी आहार वरीयताओं का चयन करें (कम से कम एक आवश्यक)",
+  "profileDietVeg": "शाकाहारी",
+  "profileDietVegDesc": "कोई मांस, मछली या मुर्गी नहीं",
+  "profileDietVeganDesc": "कोई पशु उत्पाद नहीं",
+  "profileDietJain": "जैन",
+  "profileDietJainDesc": "कोई कंदमूल (जड़ वाली सब्जियां) नहीं",
+  "profileDietEgg": "अंडे के साथ शाकाहारी",
+  "profileDietEggDesc": "अंडे के साथ शाकाहारी",
+  "profileDietNonVeg": "माँसाहारी",
+  "profileDietNonVegDesc": "सभी खाद्य प्रकार शामिल हैं",
+  "profileDietPescatarian": "पेस्केटेरियन",
+  "profileDietPescatarianDesc": "मछली के साथ शाकाहारी",
+  "profileDietMultipleInfo": "आप कई वरीयताओं का चयन कर सकते हैं। उदाहरण के लिए, शाकाहारी + जैन या एगेटेरियन + पेस्केटेरियन।",
+  "profileDietImportanceTitle": "आहार वरीयता महत्व",
+  "profileDietImportanceRespect": "सुनिश्चित करता है कि सभी भोजन सुझाव आपकी आहार पसंद का सम्मान करते हैं",
+  "profileDietImportanceFilter": "उन सामग्रियों को फ़िल्टर करता है जो आपकी पसंद से मेल नहीं खाती हैं",
+  "profileDietImportanceCultural": "सांस्कृतिक रूप से उपयुक्त भारतीय भोजन विकल्प प्रदान करता है",
+  "profileDietImportanceBalance": "आपके आहार ढांचे के भीतर पोषण संतुलन बनाए रखने में मदद करता है",
+  "profileDietImportanceReligious": "धार्मिक और नैतिक भोजन विकल्पों का समर्थन करता है",
+  "profileBudgetSubtitle": "स्मार्ट भोजन योजना के लिए अपना मासिक भोजन बजट निर्धारित करें",
+  "profileBudgetAmountLabel": "बजट राशि दर्ज करें *",
+  "profileBudgetAmountHint": "अपना मासिक भोजन बजट दर्ज करें",
+  "profileBudgetAmountRequired": "बजट आवश्यक है",
+  "profileBudgetAmountMin": "न्यूनतम बजट ₹1,000 है",
+  "profileBudgetAmountMax": "अधिकतम बजट ₹1,00,000 है",
+  "profileBudgetQuickSelect": "त्वरित चयन",
+  "profileBudgetBreakdownTitle": "बजट विवरण",
+  "profileBudgetDaily": "दैनिक बजट",
+  "profileBudgetWeekly": "साप्ताहिक बजट",
+  "profileBudgetPerMeal": "प्रति भोजन (लगभग)",
+  "profileBudgetSavingsInfo": "हम बजट के अनुकूल सामग्री प्रतिस्थापन का सुझाव देंगे और पूरे महीने खर्च को ट्रैक करने में आपकी मदद करेंगे।",
+  "profileBudgetAwareTitle": "बजट-जागरूक योजना",
+  "profileBudgetAwareSuggest": "ऐसे भोजन का सुझाव देता है जो आपके मासिक बजट में फिट हों",
+  "profileBudgetAwareCost": "लागत प्रभावी सामग्री विकल्प प्रदान करता है",
+  "profileBudgetAwareTrack": "पूरे महीने किराने के खर्च को ट्रैक करने में मदद करता है",
+  "profileBudgetAwareOptimize": "न्यूनतम लागत पर अधिकतम पोषण के लिए भोजन योजनाओं को अनुकूलित करता है",
+  "profileBudgetAwarePrevent": "किराने के सामान पर अधिक खर्च को रोकता है",
+  "profileAllergyTitle": "एलर्जी और असहिष्णुता",
+  "profileAllergySubtitle": "किसी भी खाद्य एलर्जी या असहिष्णुता का चयन करें (वैकल्पिक)",
+  "profileAllergySearchHint": "खोजें या कस्टम एलर्जी जोड़ें",
+  "profileAllergySelected": "चयनित एलर्जी",
+  "profileAllergyCommon": "सामान्य एलर्जी",
+  "profileAllergyWarning": "सभी भोजन योजनाएं स्वचालित रूप से उन सामग्रियों को बाहर कर देंगी जिनसे आपको एलर्जी है। कृपया गंभीर एलर्जी के लिए अपने डॉक्टर से परामर्श करें।",
+  "profileAllergySafetyTitle": "एलर्जी सुरक्षा",
+  "profileAllergySafetyPrevents": "आपको नुकसान पहुँचाने वाले एलर्जी वाले भोजन के सुझाव को रोकता है",
+  "profileAllergySafetyFilters": "स्वचालित रूप से सभी अनुशंसाओं से असुरक्षित सामग्री को फ़िल्टर करता है",
+  "profileAllergySafetySubstitutions": "भोजन योजनाओं में सुरक्षित सामग्री प्रतिस्थापन प्रदान करता है",
+  "profileAllergySafetyExclude": "सुनिश्चित करता है कि किराने की सूचियों में एलर्जी वाली वस्तुएं शामिल नहीं हैं",
+  "profileAllergySafetyCritical": "आपके स्वास्थ्य और सुरक्षा के लिए महत्वपूर्ण",
+  "allergyPeanuts": "मूँगफली",
+  "allergyTreeNuts": "ट्री नट्स",
+  "allergyMilk": "दूध",
+  "allergyEggs": "अंडे",
+  "allergyWheat": "गेहूँ",
+  "allergySoy": "सोया",
+  "allergyFish": "मछली",
+  "allergyShellfish": "शेलफिश",
+  "allergySesame": "तिल",
+  "allergyMustard": "सरसों",
+  "allergyGluten": "ग्लूटेन",
+  "allergyLactose": "लैक्टोज",
+  "allergyCorn": "मकई",
+  "allergyGarlic": "लहसुन",
+  "allergyOnion": "प्याज",
+  "allergyTomato": "टमाटर",
+  "allergyCitrus": "खट्टे फल",
+  "allergyStrawberries": "स्ट्रॉबेरी",
+  "allergyChocolate": "चॉकलेट",
+  "allergyCaffeine": "कैफीन",
+  "mockGroceryGinger": "अदरक",
+  "mockGroceryGreenChillies": "हरी मिर्च",
+  "mockGroceryCorianderLeaves": "धनिया पत्ती",
+  "mockGroceryReasonFreq": "अक्सर खरीदा जाता है",
+  "mockGroceryReasonOften": "अक्सर {item} के साथ खरीदा जाता है",
+  "@mockGroceryReasonOften": {
+    "placeholders": {
+      "item": { "type": "String" }
+    }
+  },
+  "mockGroceryReasonPlan": "आपके भोजन योजना के पूरक",
+  "groceryShoppingProgressTitle": "खरीदारी की प्रगति",
+  "groceryShoppingProgressLabel": "{purchased}/{total} वस्तुएं",
+  "@groceryShoppingProgressLabel": {
+    "placeholders": {
+      "purchased": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "deliverySectionTitle": "डिलिवरी एकीकरण",
+  "deliverySectionSubtitle": "आपके कार्ट के आधार पर त्वरित वितरण विकल्प",
+  "deliveryBigBasketTitle": "BigBasket",
+  "deliveryBigBasketSubtitle": "किराने की पूरी रेंज",
+  "deliveryBigBasketFee": "शुल्क: ₹30 (₹500 से ऊपर निःशुल्क)",
+  "deliveryBigBasketEta": "समय: 4-6 घंटे",
+  "deliveryBlinkitTitle": "Blinkit",
+  "deliveryBlinkitSubtitle": "तत्काल वितरण",
+  "deliveryBlinkitFee": "शुल्क: ₹25 (₹199 से ऊपर निःशुल्क)",
+  "deliveryBlinkitEta": "समय: 15-20 मिनट",
+  "deliveryDMartTitle": "DMart Ready",
+  "deliveryDMartSubtitle": "वैल्यू शॉपिंग",
+  "deliveryDMartFee": "पिकअप: निःशुल्क | वितरण: ₹49",
+  "deliveryDMartEta": "समय: अगला दिन",
+  "deliveryAvailableForCart": "आपके कार्ट आकार के लिए उपलब्ध है",
+  "deliveryMinOrderNotMet": "न्यूनतम ऑर्डर राशि पूरी नहीं हुई",
+  "deliveryUnavailable": "वर्तमान में आपके क्षेत्र में अनुपलब्ध है",
+  "deliveryChipSelected": "चयनित",
+  "deliveryChipSelect": "चुनें",
+  "deliverySelectedLabel": "चयनित डिलवरी: {provider}",
+  "@deliverySelectedLabel": {
+    "placeholders": {
+      "provider": { "type": "String" }
+    }
+  },
+  "loadingGeneral": "लोड हो रहा है...",
+  "groceryExceedsBudgetInfo": "आपकी वर्तमान सूची बजट से {amount} अधिक है। इन विकल्पों पर विचार करें:",
+  "@groceryExceedsBudgetInfo": {
+    "placeholders": {
+      "amount": { "type": "String" }
+    }
+  },
+  "grocerySubstitutionPrompt": "{item1} को {item2} में बदलें?",
+  "@grocerySubstitutionPrompt": {
+    "placeholders": {
+      "item1": { "type": "String" },
+      "item2": { "type": "String" }
+    }
+  },
+  "groceryImpactMinimal": "स्वाद पर प्रभाव न्यूनतम है",
+  "groceryCategoryPantry": "पेंट्री स्टेपल",
+  "groceryItemBrownRice": "ब्राउन राइस",
+  "groceryItemMoongDal": "मूंग दाल",
+  "groceryItemSpinach": "पालक",
+  "groceryItemCarrots": "गाजर",
+  "groceryBudgetFriendlyAlts": "बजट के अनुकूल विकल्प",
+  "profileGenderMale": "पुरुष",
+  "profileGenderFemale": "महिला",
+  "mealPlanTitle": "दैनिक भोजन योजना",
+  "mealPlanNoPlan": "कोई भोजन योजना उपलब्ध नहीं है",
+  "mealPlanBreakfast": "नाश्ता",
+  "mealPlanLunch": "दोपहर का भोजन",
+  "mealPlanDinner": "रात का भोजन",
+  "mealPlanSnacks": "स्नैक्स",
+  "mealPlanToday": "आज",
+  "mealPlanPrevDay": "पिछला दिन",
+  "mealPlanNextDay": "अगला दिन",
+  "mealPlanWhyMeal": "यही भोजन क्यों?",
+  "mealPlanCookingSteps": "पकाने के चरण",
+  "mealPlanListenInstructions": "निर्देश सुनें",
+  "mealPlanIngredients": "सामग्री",
+  "mealPlanAddCount": "जोड़ें ({count})",
+  "mealPlanCanSubstitute": "{item} का उपयोग कर सकते हैं",
+  "mealPlanLongPressSelect": "ग्रोसरी लिस्ट के लिए सामग्री चुनने के लिए देर तक दबाएं",
+  "mealPlanPrepTime": "तैयारी का समय",
+  "mealPlanServings": "सर्विंग्स",
+  "mealPlanCalories": "कैलोरी",
+  "mealPlanKcalValue": "{value} किलोकैलोरी",
+  "mealPlanFeedbackTitle": "भोजन फीडबैक",
+  "mealPlanEaten": "खाया",
+  "mealPlanPartial": "आंशिक",
+  "mealPlanSkipped": "छोड़ दिया",
+  "mealPlanAdaptFeedback": "योजना आपके फीडबैक के आधार पर अनुकूलित होगी",
+  "mealPlanKcal": "{value} किलो कैलोरी",
+  "@mealPlanKcal": {
+    "placeholders": {
+      "value": { "type": "String" }
+    }
+  },
+  "mealPlanRupee": "₹{value}",
+  "@mealPlanRupee": {
+    "placeholders": {
+      "value": { "type": "String" }
+    }
+  },
+  "mealPlanBudgetWithin": "बजट के भीतर - बहुत अच्छा!",
+  "mealPlanBudgetExceeded": "बजट ₹{amount} से अधिक हो गया",
+  "@mealPlanBudgetExceeded": {
+    "placeholders": {
+      "amount": { "type": "String" }
+    }
+  },
+  "mealPlanSummaryTitle": "दैनिक सारांश",
+  "mealPlanTotalCalories": "कुल कैलोरी",
+  "mealPlanTotalCost": "कुल लागत",
+  "mealPlanAISelectedHeader": "हमारे AI ने इन मापदंडों के आधार पर भोजन चुना:",
+  "mealPlanWhyToday": "आज के भोजन का कारण",
+  "mealPlanReason1": "प्रोटीन युक्त नाश्ता आपके पीसीओएस प्रबंधन में मदद करता है और पेट भरा रखता है",
+  "mealPlanReason2": "दोपहर के भोजन में संतुलित पोषक तत्वों के साथ मधुमेह नियंत्रण के लिए उपयुक्त खाद्य पदार्थ शामिल हैं",
+  "mealPlanReason3": "रात का खाना हल्का और पौष्टिक है, जो बेहतर नींद और पाचन को बढ़ावा देता है",
+  "mealPlanReason4": "सभी भोजन पोषण लक्ष्यों को पूरा करते हुए आपके दैनिक बजट के भीतर हैं",
+  "mealPlanOatsUpma": "सब्जियों के साथ ओट्स उपमा",
+  "mealPlanMoongDalCheela": "पुदीने की चटनी के साथ मूंग दाल चीला",
+  "mealPlanRagiDosa": "सांभर के साथ रागी डोसा",
+  "mealPlanBrownRiceDal": "दाल तड़का और सलाद के साथ ब्राउन राइस",
+  "mealPlanQuinoaPulao": "रायता के साथ क्विनोआ पुलाव",
+  "mealPlanGrilledChicken": "मल्टीग्रेन रोटी के साथ ग्रिल्ड चिकन",
+  "mealPlanPalakPaneer": "रोटी के साथ पालक पनीर",
+  "mealPlanVegKhichdi": "दही के साथ वेजिटेबल खिचड़ी",
+  "mealPlanGrilledFish": "उबली हुई सब्जियों के साथ ग्रिल्ड फिश",
+  "mealPlanMixedNuts": "मिश्रित मेवे और बीज",
+  "mealPlanFruitSalad": "दही के साथ फ्रूट सलाद",
+  "mealPlanRoastedChickpeas": "भुने हुए चने",
+  "mealPlanDiabetesSafe": "मधुमेह के लिए सुरक्षित",
+  "mealPlanPCOSFriendly": "पीसीओएस-अनुकूल",
+  "mealPlanHeartHealthy": "हृदय के लिए स्वस्थ",
+  "mealPlanIronRich": "आयरन से भरपूर",
+  "mealPlanHighProtein": "उच्च प्रोटीन",
+  "mealPlanVitaminRich": "विटामिन से भरपूर",
+  "mealPlanHighFiber": "उच्च फाइबर",
+  "mealPlanOatsUpmaSummary": "कम ग्लाइसेमिक इंडेक्स वाला नाश्ता जो आपका पेट भरा रखता है और शुगर को बढ़ने से रोकता है।",
+  "mealPlanOatsUpmaReason1": "ओट्स और सब्जियों से प्राप्त उच्च फाइबर",
+  "mealPlanOatsUpmaReason2": "ग्लूकोज का धीमा अवशोषण",
+  "mealPlanOatsUpmaReason3": "आवश्यक खनिजों से भरपूर",
+  "mealPlanBrownRiceSummary": "जटिल कार्ब्स और पौधे-आधारित प्रोटीन प्रदान करने वाला संतुलित भोजन।",
+  "mealPlanBrownRiceReason1": "तृप्ति के लिए प्रोटीन युक्त दाल",
+  "mealPlanBrownRiceReason2": "ब्राउन राइस और सलाद से फाइबर",
+  "mealPlanBrownRiceReason3": "पूर्ण अमीनो एसिड प्रोफाइल",
+  "mealPlanRoastedMakhanaSummary": "एंटीऑक्सीडेंट से भरपूर हल्का, जलनरोधी नाश्ता।",
+  "mealPlanRoastedMakhanaReason1": "ग्रीन टी से एंटीऑक्सीडेंट",
+  "mealPlanRoastedMakhanaReason2": "कम कैलोरी घनत्व",
+  "mealPlanRoastedMakhanaReason3": "मखाने से मैंगनीज और प्रोटीन",
+  "mealPlanPalakPaneerSummary": "प्रोटीन और आयरन से भरपूर रात का भोजन जो मांसपेशियों की मरम्मत और हार्मोनल स्वास्थ्य का समर्थन करता है।",
+  "mealPlanPalakPaneerReason1": "पालक से आयरन",
+  "mealPlanPalakPaneerReason2": "पनीर से प्रोटीन",
+  "mealPlanPalakPaneerReason3": "दही से प्रोबायोटिक्स",
+  "mockIngredientOats": "ओट्स",
+  "mockIngredientMustardSeeds": "सरसों के बीज",
+  "mockIngredientCurryLeaves": "करी पत्ता",
+  "mockIngredientGreenChili": "हरी मिर्च",
+  "mockIngredientPhoolMakhana": "फूल मखाना",
+  "mockIngredientGreenTeaBag": "ग्रीन टी बैग",
+  "mockIngredientBlackSalt": "काला नमक और काली मिर्च",
+  "mockIngredientGhee": "घी / जैतून का तेल",
+  "mockIngredientCucumber": "खीरा",
+  "mockIngredientPalakPuree": "पालक की प्यूरी",
+  "mockIngredientPaneerCubes": "पनीर के टुकड़े",
+  "mockInstructionDryRoast": "ओट्स को हल्का सुनहरा होने तक 2-3 मिनट तक सूखा भून लें।",
+  "mockInstructionTadka": "तेल गरम करें, सरसों के दाने, करी पत्ता और हरी मिर्च डालें।",
+  "mockInstructionSauteVeg": "प्याज और सब्जियां डालें, नरम होने तक भूनें।",
+  "mockInstructionBoilWater": "पानी और नमक डालें, उबाल आने दें। भुने हुए ओट्स डालें।",
+  "mockInstructionCookOats": "पानी सूखने और ओट्स के नरम होने तक पकाएं।",
+  "mockInstructionCookBrownRice": "निर्देशानुसार ब्राउन राइस पकाएं।",
+  "mockInstructionPressureCookDal": "हल्दी और नमक के साथ दाल को प्रेशर कुक करें।",
+  "mockInstructionPerformTadka": "थोड़े से घी/तेल में जीरा और लहसुन के साथ तड़का लगाएं।",
+  "mockInstructionPrepareSalad": "कटे हुए खीरे और टमाटर के साथ ताज़ा सलाद तैयार करें।",
+  "mockInstructionRoastMakhana": "एक पैन में घी गरम करें और मखानों को कुरकुरा होने तक भूनें।",
+  "mockInstructionSeasonMakhana": "गरम होने पर काला नमक और काली मिर्च डालें।",
+  "mockInstructionBrewTea": "गर्म पानी में ग्रीन टी बैग को 2-3 मिनट के लिए डुबोएं।",
+  "mockInstructionPreparePalakPaneer": "मसालों और पनीर के साथ पालक पनीर ग्रेवी तैयार करें।",
+  "mockInstructionMakeRotis": "तवे पर ताज़ा रोटियां बनाएं।",
+  "mockInstructionMixRaita": "रायते के लिए फेंटे हुए दही में कद्दूकस किया हुआ खीरा मिलाएं।",
+  "mockBenefitInsulin": "धीमी ऊर्जा रिलीज इंसुलिन के स्तर को बढ़ने से रोकती है।",
+  "mockBenefitSatiety": "उच्च फाइबर सामग्री तृप्ति को बढ़ावा देती है।",
+  "mockBenefitDigestion": "उच्च फाइबर पाचन क्रिया को सुगम बनाने में मदद करता है।",
+  "mockBenefitHormonal": "पोषक तत्व PCOS प्रबंधन में सहायता करते हैं।",
+  "mockBenefitOxidative": "ग्रीन टी ऑक्सीडेटिव तनाव को कम करने में मदद करती है।",
+  "mockBenefitMindful": "कुरकुरी बनावट कम कैलोरी के साथ क्रेविंंग को संतुष्ट करती है।",
+  "mockBenefitIron": "पालक पौधे-आधारित आयरन का एक समृद्ध स्रोत है।",
+  "mockBenefitGutHealth": "रायता बेहतर पाचन के लिए प्रोबायोटिक्स प्रदान करता है।",
+  "mockConditionDigestion": "पाचन",
+  "mockConditionHormonal": "हार्मोनल संतुलन",
+  "mockConditionInflammation": "जलन",
+  "mockConditionMindful": "सचेत स्नैकिंग",
+  "mockConditionIron": "आयरन की कमी",
+  "mockConditionGutHealth": "पेट का स्वास्थ्य",
+  "mockMealPlanOatsUpmaExpl": "उच्च फाइबर सामग्री रक्त शर्करा के स्तर को विनियमित करने में मदद करती है",
+  "mockMealPlanMoongDalExpl": "प्रोटीन युक्त मूंग दाल हार्मोनल संतुलन का समर्थन करती है",
+  "mockMealPlanRagiDosaExpl": "रागी समग्र कल्याण के लिए कैल्शियम और आयरन प्रदान करती है",
+  "mockMealPlanBrownRiceExpl": "ब्राउन राइस में ग्लाइसेमिक इंडेक्स कम होता है, जो शुगर कंट्रोल के लिए सही है",
+  "mockMealPlanQuinoaExpl": "क्विनोआ चयापचय स्वास्थ्य का समर्थन करने वाला एक पूर्ण प्रोटीन स्रोत है",
+  "mockMealPlanGrilledChickenExpl": "लीन प्रोटीन मांसपेशियों के स्वास्थ्य का समर्थन करता है और आपको तृप्त रखता है",
+  "mockMealPlanPalakPaneerExpl": "पालक हड्डियों के स्वास्थ्य के लिए आयरन और कैल्शियम प्रदान करता है",
+  "mockMealPlanVegKhichdiExpl": "पचाने में आसान, संतुलित भोजन रात के खाने के लिए उपयुक्त",
+  "mockMealPlanGrilledFishExpl": "ओमेगा-3 फैटी एसिड हृदय स्वास्थ्य का समर्थन करते हैं",
+  "mockMealPlanMixedNutsExpl": "निरंतर ऊर्जा के लिए स्वस्थ वसा और प्रोटीन",
+  "mealPlanFruitSaladExpl": "ताजे फल एंटीऑक्सीडेंट और प्राकृतिक मिठास प्रदान करते हैं",
+  "mealPlanRoastedChickpeasExpl": "फाइबर युक्त स्नैक जो आपको भोजन के बीच भरा रखता है",
+  "insightsTitle": "स्वास्थ्य जानकारी",
+  "insightsRefreshTooltip": "जानकारी ताज़ा करें",
+  "insightsYourHealthScore": "आपका स्वास्थ्य स्कोर",
+  "insightsWeeklyChange": "इस सप्ताह {value} अंक",
+  "@insightsWeeklyChange": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "insightsHealthConditions": "स्वास्थ्य की स्थिति",
+  "insightsNutrientBalance": "पोषक तत्व संतुलन",
+  "insightsWeeklyTrends": "साप्ताहिक रुझान",
+  "insightsPersonalizedInsights": "व्यक्तिगत जानकारी",
+  "insightsRecommendations": "सिफारिशें",
+  "insightsDietAdherence": "आहार का पालन",
+  "insightsNutrientTracking": "दैनिक पोषक तत्व ट्रैकिंग",
+  "insightsStatusWithinRange": "सीमा के भीतर",
+  "insightsStatusBorderline": "सीमा रेखा पर",
+  "insightsStatusNeedsImprovement": "सुधार की आवश्यकता",
+  "insightsStatusStable": "स्थिर",
+  "insightsStatusImproving": "सुधर रहा है",
+  "insightsStatusNeedsAttention": "ध्यान देने की आवश्यकता",
+  "insightsTrendImproving": "सुधर रहा है",
+  "insightsTrendDeclining": "कम हो रहा है",
+  "insights7DayTrends": "7-दिवसीय रुझान",
+  "insightsTabAdherence": "अनुपालन",
+  "insightsTabCalories": "कैलोरी",
+  "insightsTabBudget": "बजट",
+  "insightsNoData": "कोई डेटा उपलब्ध नहीं",
+  "insightsDefaultTitle": "जानकारी",
+  "insightsActionable": "कार्रवाई योग्य",
+  "insightsDefaultRecommendation": "सिफारिश",
+  "mockInsightConsistentTimingTitle": "लगातार भोजन का समय",
+  "mockInsightConsistentTimingDesc": "आपने 6 दिनों तक नियमित भोजन का समय बनाए रखा है। यह रक्त शर्करा के स्तर को स्थिर करने में मदद करता है।",
+  "mockInsightFiberLowTitle": "फाइबर का सेवन लक्ष्य से कम",
+  "mockInsightFiberLowDesc": "आपका फाइबर सेवन लक्ष्य का 73% है। अधिक सब्जियां और साबुत अनाज जोड़ने पर विचार करें।",
+  "mockInsightBudgetOptTitle": "बजट अनुकूलन",
+  "mockInsightBudgetOptDesc": "आप पोषण संबंधी लक्ष्यों को पूरा करते हुए बजट के भीतर रह रहे हैं। बेहतरीन संतुलन!",
+  "mockInsightSugarHighTitle": "चीनी का सेवन अधिक",
+  "mockInsightSugarHighDesc": "दैनिक चीनी का सेवन लक्ष्य से 29% अधिक है। मीठे पेय और मिठाइयों को कम करने का प्रयास करें।",
+  "mockRecFiberIncreaseTitle": "फाइबर का सेवन बढ़ाएं",
+  "mockRecFiberIncreaseDesc": "दोपहर और रात के खाने में 1 कप मिश्रित सब्जियां जोड़ें। सफेद चावल को भूरे चावल (ब्राउन राइस) में बदलने का प्रयास करें।",
+  "mockRecSugarReduceTitle": "अतिरिक्त चीनी कम करें",
+  "mockRecSugarReduceDesc": "मीठे पेय पदार्थों को हर्बल चाय या इन्फ्यूज्ड पानी से बदलें। फलों के रस के बजाय ताजे फल चुनें।",
+  "mockRecProteinMaintainTitle": "वर्तमान प्रोटीन स्तर बनाए रखें",
+  "mockRecProteinMaintainDesc": "आपका प्रोटीन सेवन उत्कृष्ट है। अपने भोजन में दाल, पनीर और अंडे शामिल करना जारी रखें।",
+  "mockRecHydrateTitle": "हाइड्रेटेड रहें",
+  "mockRecHydrateDesc": "चयापचय और पोषक तत्वों के अवशोषण में सहायता के लिए प्रतिदिन 8-10 गिलास पानी पीने का लक्ष्य रखें।",
+  "adaptivePlanActive": "अनुकूली योजना सक्रिय",
+  "adaptivePersonalized": "व्यक्तिगत",
+  "adaptiveAdjustedDesc": "आपकी खाने की आदतों के आधार पर आपकी योजना को स्वचालित रूप से समायोजित किया गया है:",
+  "adaptivePortionsOptimized": "आपकी उपभोग की आदतों के लिए अनुकूलित हिस्से",
+  "adaptiveMealsReplaced": "आपकी पसंद के आधार पर बदले गए भोजन",
+  "adaptiveNutrientsRebalanced": "इष्टतम स्वास्थ्य के लिए पुनर्संतुलित पोषक तत्व",
+  "mockConditionDiabetes": "टाइप 2 मधुमेह",
+  "mockConditionPCOS": "पीसीओएस",
+  "mockConditionHypertension": "उच्च रक्तचाप",
+  "mealPlanCalories": "कैलोरी",
+  "mealPlanProtein": "प्रोटीन",
+  "mealPlanFiber": "फाइबर",
+  "mealPlanSugar": "चीनी",
+  "mealPlanSodium": "सोडियम",
+  "pantryTitle": "पेंट्री मैनेजमेंट",
+  "pantryRefreshTooltip": "पेंट्री ताज़ा करें",
+  "pantrySearchHint": "सामग्री खोजें...",
+  "pantryTabInventory": "इन्वेंट्री",
+  "pantryTabSuggestions": "भोजन सुझाव",
+  "pantryFabAddItem": "आइटम जोड़ें",
+  "pantryEmptyNoItems": "पेंट्री में कोई आइटम नहीं है",
+  "pantryEmptyNoResults": "कोई परिणाम नहीं मिला",
+  "pantryEmptyMessageNoItems": "अपनी पेंट्री इन्वेंट्री को ट्रैक करने के लिए सामग्री जोड़ना शुरू करें",
+  "pantryEmptyMessageNoResults": "अलग कीवर्ड के साथ खोजने का प्रयास करें",
+  "pantrySummaryTotal": "कुल आइटम",
+  "pantrySummaryFresh": "ताजा",
+  "pantrySummaryExpiring": "समाप्त होने वाला",
+  "pantrySummaryExpired": "समाप्त",
+  "pantrySuggestionsTitle": "स्मार्ट भोजन सुझाव",
+  "pantrySuggestionsSubtitle": "आपकी उपलब्ध पेंट्री स्टॉक के आधार पर",
+  "pantryEmptyNoSuggestions": "कोई भोजन सुझाव नहीं",
+  "pantryEmptyMessageNoSuggestions": "व्यक्तिगत भोजन सुझाव प्राप्त करने के लिए और सामग्री जोड़ें",
+  "pantrySnackAddedToList": "{itemName} को किराना सूची में जोड़ा गया",
+  "@pantrySnackAddedToList": {
+    "placeholders": {
+      "itemName": { "type": "String" }
+    }
+  },
+  "pantrySnackMarkedUsed": "{itemName} को उपयोग किया गया चिह्नित किया गया",
+  "@pantrySnackMarkedUsed": {
+    "placeholders": {
+      "itemName": { "type": "String" }
+    }
+  },
+  "pantrySnackAddedToPantry": "{itemName} को पेंट्री में जोड़ा गया",
+  "@pantrySnackAddedToPantry": {
+    "placeholders": {
+      "itemName": { "type": "String" }
+    }
+  },
+  "pantryDialogAddTitle": "पेंट्री आइटम जोड़ें",
+  "pantryDialogItemNameLabel": "आइटम का नाम *",
+  "pantryDialogItemNameHint": "जैसे, टमाटर",
+  "pantryDialogCategoryLabel": "श्रेणी *",
+  "pantryDialogQuantityLabel": "मात्रा *",
+  "pantryDialogQuantityHint": "0.0",
+  "pantryDialogUnitLabel": "इकाई *",
+  "pantryDialogExpiryDateLabel": "समाप्ति तिथि *",
+  "pantryDialogErrorFields": "कृपया सभी आवश्यक फ़ील्ड भरें",
+  "pantryDialogCancel": "रद्द करें",
+  "pantryDialogConfirmAdd": "आइटम जोड़ें",
+  "pantryCategoryVegetables": "सब्जियां",
+  "pantryCategoryGrains": "अनाज",
+  "pantryCategorySpices": "मसाले",
+  "pantryCategoryDairy": "डेयरी",
+  "pantryCategoryProteins": "प्रोटीन",
+  "pantryCategoryOther": "अन्य",
+  "unitKg": "किग्रा",
+  "unitG": "ग्राम",
+  "unitL": "लीटर",
+  "unitMl": "मिली",
+  "unitPcs": "पीस",
+  "pantryStatusFresh": "ताजा",
+  "pantryStatusExpiringSoon": "जल्द समाप्त होगा",
+  "pantryStatusExpired": "समाप्त",
+  "pantryStatusUnknown": "अज्ञात",
+  "pantryMealCal": "{value} कैलोरी",
+  "@pantryMealCal": {
+    "placeholders": {
+      "value": { "type": "String" }
+    }
+  },
+  "pantryMealAvailablePercent": "{value}% उपलब्ध",
+  "@pantryMealAvailablePercent": {
+    "placeholders": {
+      "value": { "type": "int" }
+    }
+  },
+  "pantryMealRequiredIngredients": "आवश्यक सामग्री",
+  "pantryMealInPantry": "पेंट्री में",
+  "pantryMealMissingIngredients": "लापता सामग्री",
+  "pantryMealEstimatedCost": "अनुमानित लागत: ₹{value}",
+  "@pantryMealEstimatedCost": {
+    "placeholders": {
+      "value": { "type": "String" }
+    }
+  },
+  "pantryMealReadyToCook": "सभी सामग्री उपलब्ध! पकाने के लिए तैयार।",
+  "pantryMealAddedMissingToGrocery": "लापता सामग्री किराना सूची में जोड़ी गई",
+  "pantryMealStartCooking": "खाना पकाना शुरू करें",
+  "pantryMealAddMissingItems": "लापता वस्तुओं को किराना में जोड़ें",
+  "pantryMealMissingLabel": "लापता: {value}",
+  "@pantryMealMissingLabel": {
+    "placeholders": {
+      "value": { "type": "String" }
+    }
+  },
+  "pantryMealAllAvailable": "सभी सामग्री उपलब्ध!",
+  "pantryMealTapToView": "विवरण देखने के लिए टैप करें",
+  "pantryDetailsStock": "वर्तमान स्टॉक",
+  "pantryDetailsDaysLeft": "दिन शेष",
+  "pantryDetailsDaysRange": "{value} दिन",
+  "@pantryDetailsDaysRange": {
+    "placeholders": {
+      "value": { "type": "int" }
+    }
+  },
+  "pantryDetailsPurchaseDate": "खरीद की तारीख",
+  "pantryDetailsExpiryDate": "समाप्ति तिथि",
+  "pantryDetailsStockLevel": "स्टॉक स्तर",
+  "pantryDetailsNoUsage": "अभी तक कोई उपयोग रिकॉर्ड नहीं किया गया",
+  "pantryDetailsUsageHistory": "उपयोग इतिहास",
+  "pantryDetailsMarkUsedTitle": "{itemName} को उपयोग किया गया चिह्नित करें",
+  "@pantryDetailsMarkUsedTitle": {
+    "placeholders": {
+      "itemName": { "type": "String" }
+    }
+  },
+  "pantryDetailsSelectPortion": "उपयोग किया गया हिस्सा चुनें:",
+  "pantryDetailsConfirm": "पुष्टि करें",
+  "pantryDetailsAddToList": "सूची में जोड़ें",
+  "pantryDetailsMarkUsed": "उपयोग चिह्नित करें",
+  "pantryDetailsExpiresLabel": "समाप्त होगा: {date} ({days} दिन)",
+  "mockIngredientCapsicum": "शिमला मिर्च",
+  "mockIngredientMixedVeg": "मिश्रित सब्जियां",
+  "mockIngredientDalia": "दलिया",
+  "mockMealVegPulao": "वेजिटेबल पुलाव",
+  "mockMealPaneerTikka": "पनीर टिक्का",
+  "mockMealDaliaKhichdi": "दलिया खिचड़ी",
+  "mockIngredientOnions": "प्याज",
+  "mockIngredientTomatoes": "टमाटर",
+  "mockIngredientSpinach": "पालक",
+  "mockIngredientCarrots": "गाजर",
+  "mockIngredientBasmatiRice": "बासमती चावल",
+  "mockIngredientWheatFlour": "गेहूं का आटा",
+  "mockIngredientMoongDal": "मूंग दाल",
+  "mockIngredientTurmeric": "हल्दी पाउडर",
+  "mockIngredientCumin": "जीरा",
+  "mockIngredientGaramMasala": "गरम मसाला",
+  "mockIngredientMilk": "दूध",
+  "mockIngredientYogurt": "दही",
+  "mockIngredientPaneer": "पनीर",
+  "mockIngredientChicken": "चिकन ब्रेस्ट",
+  "mockIngredientEggs": "अंडे",
+  "mockIngredientGreenPeas": "हरी मटर",
+  "mockIngredientCream": "क्रीम",
+  "mockIngredientButter": "मक्खन",
+  "mockIngredientCoconutMilk": "नारियल का दूध",
+  "mockIngredientGarlic": "लहसुन",
+  "mockMealDalTadka": "दाल तड़का",
+  "mockMealPaneerButterMasala": "पनीर बटर मसाला",
+  "mealPlanRoastedMakhana": "भुने हुए मखाने और ग्रीन टी",
+  "mockMealPlanRotiPalakPaneer": "रोटी, पालक पनीर और खीरे का रायता",
+  "mockMealEggCurry": "अंडा करी",
+  
+  "mockMealIdliSambar": "इडली और सांभर",
+  "mockMealDosaChutney": "डोसा और नारियल की चटनी",
+  "mockMealVegetableUpma": "सब्जी उपमा",
+  "mockMealLemonRice": "नींबू चावल",
+  "mockMealCurdRice": "दही चावल",
+  "mockMealRagiMudde": "रागी मुद्दे और सारू",
+  "mockMealRotiDalTadka": "रोटी और दाल तड़का",
+  "mockMealRajmaChawal": "राजमा चावल",
+  "mockMealVegetableKhichdi": "सब्जी खिचड़ी",
+  "mockMealCholeRice": "छोले और चावल",
+  "mockMealPaneerBhurji": "पनीर भुर्जी और रोटी",
+  
+  "@pantryDetailsExpiresLabel": {
+    "placeholders": {
+      "date": { "type": "String" },
+      "days": { "type": "int" }
+    }
+  }
+}
+
+
