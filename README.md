@@ -151,7 +151,7 @@ flutter run
 # Build APK
 
 ```bash
-flutter build apk   release
+flutter build apk --release
 ```
 
    
