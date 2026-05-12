@@ -2,7 +2,7 @@
 
 NutriCart is an adaptive nutrition and grocery planning application designed for Indian users with common health conditions such as Type 2 Diabetes and hypertension.
 
-Instead of forcing unrealistic diet plans, NutriCart re engineers familiar Indian meals into healthier alternatives while respecting cultural food habits, affordability, and lifestyle constraints.
+Instead of forcing unrealistic diet plans, NutriCart re-engineers familiar Indian meals into healthier alternatives while respecting cultural food habits, affordability, and lifestyle constraints.
 
    
 
